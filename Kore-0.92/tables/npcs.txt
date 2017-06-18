@@ -1,0 +1,11 @@
+51248 prontera 146 87 Kapra's
+51217 prontera 146 89 Kapra's
+51246 morocc 153 286 View
+64108 moc_fild07 41 355 Nun of Penance
+51255 prontera 155 190 Dungeon Teleporter
+51253 prontera 153 190 Town Teleporter
+51256 prontera 157 190 PVP Teleporter
+51251 prontera 140 204 Character Administrator
+51121 prt_fild05 290 224 Kafra
+51066 prt_fild05 290 221 Tool Dealer
+50639 prt_fild05 270 212 Culvert Guardian

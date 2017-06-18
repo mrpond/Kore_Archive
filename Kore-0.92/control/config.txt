@@ -1,0 +1,140 @@
+#See the documentation for what these variables do
+
+local_port 2349
+local_host localhost
+buildType 0
+
+local_port 2345
+local_host localhost
+master_host 61.220.60.11
+master_port 6900
+master_name_0 iRO: Master I
+master_host_0 38.144.194.2
+master_port_0 6900
+master_version_0 1
+version 20
+
+version 18
+encrypt 0
+
+master 0
+server 1
+username xxxxxxx
+password xxxxxxx
+char 1
+sex 
+
+adminPassword batropri
+callSign kore
+
+dcOnDeath 0
+dcOnDualLogin 0
+autoRestart 0
+
+verbose 1
+debug 0
+message_length_max 80
+
+attackAuto 2
+attackAuto_party 1
+attackAuto_followTarget 1
+attackDistance 3
+attackMaxRouteDistance 50
+attackMaxRouteTime 4
+attackUseWeapon 1
+
+lockMap
+lockMap_x 
+lockMap_y 
+
+saveMap Prontera
+saveMap_warpToBuyOrSell 0
+
+route_randomWalk 1
+route_randomWalk_maxRouteTime 15
+route_step 15
+
+attackSkillSlot_0 
+attackSkillSlot_0_dist 3
+attackSkillSlot_0_hp_lower 0
+attackSkillSlot_0_hp_upper 100
+attackSkillSlot_0_lvl 1
+attackSkillSlot_0_maxAggressives 0
+attackSkillSlot_0_minAggressives 0
+attackSkillSlot_0_maxCastTime 10
+attackSkillSlot_0_minCastTime 0
+attackSkillSlot_0_maxUses 0
+attackSkillSlot_0_monsters 
+attackSkillSlot_0_sp_lower 0
+attackSkillSlot_0_sp_upper 100
+attackSkillSlot_0_stopWhenHit 0
+
+sitAuto_hp_lower 40
+sitAuto_hp_upper 100
+sitAuto_sp_lower 0
+sitAuto_sp_upper 0
+
+sitAuto_idle 0
+
+teleportAuto_hp 10
+teleportAuto_idle 0
+teleportAuto_portal 0
+teleportAuto_search 0
+teleportAuto_minAggressives 0
+teleportAuto_onlyWhenSafe 1
+teleportAuto_useItem 1
+
+useSelf_skill_0 
+useSelf_skill_0_hp_lower 0
+useSelf_skill_0_hp_upper 100
+useSelf_skill_0_lvl 1
+useSelf_skill_0_maxAggressives 0
+useSelf_skill_0_minAggressives 0
+useSelf_skill_0_maxCastTime 10
+useSelf_skill_0_minCastTime 0
+useSelf_skill_0_sp_lower 0
+useSelf_skill_0_sp_upper 100
+useSelf_skill_0_stopWhenHit 0
+useSelf_skill_0_timeout 0
+
+useSelf_skill_smartHeal 1
+
+useSelf_item_1 Red Potion
+useSelf_item_1_hp_lower 40
+useSelf_item_0_hp_upper 70
+useSelf_item_0_maxAggressives 0
+useSelf_item_0_minAggressives 0
+useSelf_item_0_sp_lower 0
+useSelf_item_0_sp_upper 100
+useSelf_item_0_stopWhenHit 0
+
+itemsTakeAuto 2
+itemsGatherAuto 0
+itemsMaxWeight 49
+
+buyAuto_0 
+buyAuto_0_npc 
+buyAuto_0_minAmount 0
+buyAuto_0_maxAmount 10
+
+sellAuto 0
+sellAuto_npc 
+
+storageAuto 0
+storageAuto_npc 
+
+follow 0
+followTarget 
+followDistanceMax 6
+followDistanceMin 3
+followLostStep 12
+
+tankMode 0
+tankModeTarget 
+
+dealAutoCancel 1
+partyAutoDeny 1
+partyAutoShare 0
+
+seconds_per_block 0.10
+sleepTime 1000

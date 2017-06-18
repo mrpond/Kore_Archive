@@ -1,0 +1,40 @@
+#Tell Kore to pickup certain items
+#Format: <item name> <flag>
+#
+#<item name> - name of item (not case sensitive)
+#
+#<flag> - 1 to pickup the item, 0 to leave it alone
+#
+#Use the item name "all" to tell kore to pickup or not pickup all items by default
+all 0
+Romantic Leaf 1
+Singing Plant 1
+Bud 1
+Ment 1
+Leaf of Aloe 1
+Aloe 1
+Wooden Mail 1
+Willow Card 1
+Trunk 1
+Feather 1
+Emerald 1
+Fabre Card 1
+Fabre Doll 1
+Lunatic Card 1
+Pierrot Nose 1
+Poring Doll 1
+Poring Card 1
+Unripe Apple 1
+Sticky Mucus 1
+Sandals 1
+Hood 1
+Red Gemstone 1
+Falchion 1
+Guard 1
+Phracon 1
+Iron Ore 1
+Pupa Card 1
+Spawn 1
+Cutter 1
+Roda Frog Card 1
+Rainbow Carrot 1
