@@ -1,0 +1,8 @@
+0 Usable
+1 Usable
+2 Usable
+3 Non-usable
+4 Armour
+5 Weapon
+6 Card
+10 Arrows

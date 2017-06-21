@@ -1,0 +1,36 @@
+#Tell Kore what to look for in chat/private message
+#Format: <phrase>|<key #>
+#
+#<phrase> - The response to be given
+#
+#<key #> - What key it is assaigned to. Multiple phrases in same key results in random choice
+#
+#For More help, please go to Kernel's site http://kernel.verbicide.net/php-bin/vbb and ask
+#To use emotions, just type what you would in kore. ex: e1|3 would do your 1st emotion
+
+hey sup|1
+not now busy|1
+busy sorry|1
+eh not now|1
+wait|1
+yea -_-|1
+
+lol ok|2
+geez|2
+if you say so T_T|2
+who..me?|2
+heh|2
+i know right|2
+
+e1|3
+
+im good|4
+nah im good|4
+heh no|4
+no thanks|4
+nah but thanks|4
+heh nah|4
+nah its ok|4
+no its alright|4
+dont worry im good|4
+heh im assasin ..dont need|4

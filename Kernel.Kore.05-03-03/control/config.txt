@@ -1,0 +1,209 @@
+#See the documentation for what these variables do
+
+local_port 5143
+local_host localhost
+buildType 0
+
+master_name_0 iRO: Master I
+master_host_0 38.144.194.2
+master_port_0 6900
+master_version_0 1
+master_name_1 cRO: Alfheim (chaos, loki, sakray, idun)
+master_host_1 61.220.60.11
+master_port_1 6900
+master_version_1 5
+master_name_2 cRO: Yotunheim (iris, penril, sara, odin, thor)
+master_host_2 61.220.56.147
+master_port_2 6900
+master_version_2 5
+master_name_3 cRO: Midgard I (balder, freyia, heimdall)
+master_host_3 61.220.62.30
+master_port_3 6900
+master_version_3 5
+master_name_4 cRO: Midgard II (honir, aegir)
+master_host_4 61.220.62.28
+master_port_4 6900
+master_version_4 5
+master_name_5 cRO: Sakray
+master_host_5 61.220.62.26
+master_port_5 6900
+master_version_5 5
+master_name_6 cRO: Mainland
+master_host_6 61.172.240.11
+master_port_6 6900
+master_version_6 8
+master_name_7 tRO: Master I (Chaos ,Irisi ,Lydia ,Odin)
+master_host_7 203.144.244.10
+master_port_7 6900
+master_version_7 7
+master_name_8 tRO: Master II (Loki ,Fenrir ,Sarah ,Thor)
+master_host_8 203.144.244.5
+master_port_8 6900
+master_version_8 7
+master_name_9 kRO: Master I
+master_host_9 211.239.161.246
+master_port_9 6900
+master_version_9 0
+master_name_10 jRO: Master I
+master_host_10 61.215.212.5
+master_port_10 6900
+master_version_10 3
+
+version 18
+encrypt 0
+
+master 
+server 
+username 
+password 
+char 
+sex 
+
+adminPassword aassaaa
+callSign kore
+
+dcOnDeath 0
+dcOnDualLogin 0
+autoRestart 0
+
+verbose 1
+debug 0
+message_length_max 80
+
+
+attackAuto 2
+attackAuto_party 0
+attackAuto_followTarget 0
+attackDistance 3
+attackMaxRouteDistance 100
+attackMaxRouteTime 4
+attackUseWeapon 2
+
+lockMap
+lockMap_x 
+lockMap_y 
+
+saveMap
+saveMap_warpToBuyOrSell 0
+
+route_randomWalk 1
+route_randomWalk_maxRouteTime 15
+route_step 15
+
+attackSkillSlot_0 
+attackSkillSlot_0_dist 
+attackSkillSlot_0_hp_lower 
+attackSkillSlot_0_hp_upper 
+attackSkillSlot_0_lvl 
+attackSkillSlot_0_maxAggressives 
+attackSkillSlot_0_minAggressives 
+attackSkillSlot_0_maxCastTime 
+attackSkillSlot_0_minCastTime 
+attackSkillSlot_0_maxUses 
+attackSkillSlot_0_monsters 
+attackSkillSlot_0_sp_lower 
+attackSkillSlot_0_sp_upper 
+attackSkillSlot_0_stopWhenHit 
+
+sitAuto_hp_lower 15
+sitAuto_hp_upper 50
+sitAuto_sp_lower 15
+sitAuto_sp_upper 100
+
+sitAuto_idle 0
+shopAuto_open 0
+
+teleportAuto_hp 18
+teleportAuto_idle 0
+teleportAuto_portal 0
+teleportAuto_search 0
+teleportAuto_minAggressives 0
+teleportAuto_onlyWhenSafe 1
+
+useSelf_skill_0 
+useSelf_skill_0_hp_lower 0
+useSelf_skill_0_hp_upper 100
+useSelf_skill_0_lvl 1
+useSelf_skill_0_maxAggressives 0
+useSelf_skill_0_minAggressives 0
+useSelf_skill_0_maxCastTime 10
+useSelf_skill_0_minCastTime 0
+useSelf_skill_0_sp_lower 0
+useSelf_skill_0_sp_upper 100
+useSelf_skill_0_stopWhenHit 0
+useSelf_skill_0_timeout 0
+
+useSelf_skill_smartHeal 1
+
+useSelf_item_0 Red Potion
+useSelf_item_0_hp_lower 0
+useSelf_item_0_hp_upper 60
+useSelf_item_0_maxAggressives 0
+useSelf_item_0_minAggressives 0
+useSelf_item_0_sp_lower 0
+useSelf_item_0_sp_upper 100
+useSelf_item_0_stopWhenHit 0
+
+useSelf_item_1 Red Herb
+useSelf_item_1_hp_lower 0
+useSelf_item_1_hp_upper 80
+useSelf_item_1_maxAggressives 0
+useSelf_item_1_minAggressives 0
+useSelf_item_1_sp_lower 0
+useSelf_item_1_sp_upper 100
+useSelf_item_1_stopWhenHit 0
+
+useSelf_item_2 Monster's Feed
+useSelf_item_2_hp_lower 0
+useSelf_item_2_hp_upper 50
+useSelf_item_2_maxAggressives 0
+useSelf_item_2_minAggressives 0
+useSelf_item_2_sp_lower 0
+useSelf_item_2_sp_upper 100
+useSelf_item_2_stopWhenHit 0
+
+itemsTakeAuto 1
+itemsGatherAuto 0
+itemsMaxWeight 49
+
+buyAuto_0 
+buyAuto_0_npc 
+buyAuto_0_minAmount 0
+buyAuto_0_maxAmount 10
+
+sellAuto 0
+sellAuto_npc
+
+storageAuto 0
+storageAuto_npc 
+
+follow 0
+followTarget 
+followDistanceMax 6
+followDistanceMin 3
+followLostStep 12
+
+tankMode 0
+tankModeTarget 
+
+dealAutoCancel 1
+partyAutoDeny 1
+partyAutoShare 0
+
+seconds_per_block 0.12
+sleepTime 50000
+
+botRespond_wait 6
+chatBorder -
+chatBorder_length 30
+showStats_kill 1
+
+chatAuto_open 1
+chatAuto_title Healing..
+chatAuto_users 2
+chatAuto_public 0
+chatAuto_password 1ww1w
+
+botRespond_wait 5
+chatBorder =
+chatBorder_length 15

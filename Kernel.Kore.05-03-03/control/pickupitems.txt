@@ -1,0 +1,24 @@
+#Tell Kore to pickup certain items
+#Format: <item name> <flag>
+#
+#<item name> - name of item (not case sensitive)
+#
+#<flag> - 1 to pickup the item, 0 to leave it alone
+#
+#Use the item name "all" to tell kore to pickup or not pickup all items by default
+all 1
+animal skin 0
+fluff 0
+feather 0
+pointed scale 0
+sticky mucus 0
+insect feeler 0
+bear's footskin 0
+racoon leaf 0
+porcupine quill 0
+stem 0
+shell 0
+powder of butterfly 0
+moth dust 0
+green herb 0
+chrysalis 0

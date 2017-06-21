@@ -1,0 +1,20 @@
+#Tell Kore what to look for in chat/private message
+#Format: <word> <key #>
+#
+#<word> - Anything you want to pickup on. Can also be phrase, but must not contain numbers
+#
+#<key #> - What key it is assaigned to. Multiple words in same key results in random choice
+#
+#For More help, please go to Kernel's site http://kernel.verbicide.net/php-bin/vbb and ask
+
+hi|1
+hey|1
+sup|1
+yo|1
+
+bot|2
+botter|2
+
+omg|3
+
+want heal|4

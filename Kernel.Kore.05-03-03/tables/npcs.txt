@@ -1,0 +1,97 @@
+51113 prontera 151 29 Kafra
+51135 prontera 160 29 Guide
+51144 morocc 153 286 Guide
+51122 morocc 160 258 Kafra
+51075 morocc 151 243 Tool Dealer
+51079 morocc 145 44 Jewel Seller
+50797 morocc 150 50 Towner
+51078 morocc 166 51 Jewel Seller
+51084 morocc 157 72 Butcher
+51076 morocc 170 101 Item Collector
+51121 morocc 156 97 Kafra
+51074 morocc 147 102 Tool Dealer
+51148 morocc 154 97 Kafra
+50869 geffen 111 48 Womankind
+51153 geffen 181 114 Aure Dupon
+51138 geffen 203 116 Guide
+51120 geffen 203 123 Kafra
+51111 prontera 146 89 Kafra
+51147 geffen 116 62 Kafra
+51139 geffen 118 62 Guide
+51119 geffen 120 62 Kafra
+51146 prontera 146 87 Kafra
+51134 prontera 29 200 Guide
+51114 prontera 29 207 Kafra
+51116 prt_fild05 290 224 Kafra
+51061 prt_fild05 290 221 Tool Dealer
+50639 prt_fild05 270 212 Culvert Guardian
+51115 prt_fild01 198 47 Kafra
+51130 mjolnir_02 82 362 Kafra
+50868 geffen 147 26 Young Man
+50641 prontera 223 99 Guard
+50642 prontera 229 104 Guard
+51112 prontera 282 200 Kafra
+51133 prontera 282 208 Guide
+51057 prontera 58 182 Flower Girl
+50625 prontera 160 133 YuPi
+53495 izlude_in 62 170 Swordman
+53494 izlude_in 74 172 Swordman
+50621 izlude_in 63 165 sword_out
+50685 izlude 58 126 Cebalis
+50684 izlude 56 126 Red
+50681 izlude 119 121 Cuskoal
+51069 izlude 126 133 Butcher
+51070 izlude 131 128 Milk Merchant
+51068 izlude 127 126 Fruit Merchant
+50683 izlude 150 143 Kylick
+50690 izlude 182 186 Edgar
+50688 izlude 201 181 Sailor
+51118 izlu2dun 106 58 Kafra
+51051 alberta 195 151 Paul
+51049 alberta 189 151 Sailor
+51125 alb2trea 59 69 Kafra
+51158 prontera 78 150 Dairenne
+51151 prontera 73 140 Milk Merchant
+51067 prt_in 172 132 Armor Dealer
+51065 prt_in 172 130 Weapon Dealer
+51066 prt_in 171 140 Weapon Dealer
+51558 prt_in 63 60 Hollgrehenn
+51557 prt_in 56 68 Vurewell
+51556 prt_in 63 69 Dietrich
+51129 gef_fild10 73 340 Kafra
+57344 prt_in 63 60 Hollgrehenn
+57342 prt_in 63 69 Dietrich
+51085 prontera 154 187 Guide
+51021 prt_fild05 290 221 Tool Dealer
+50630 prt_fild05 270 212 Culvert Guardian
+51073 prt_fild05 290 224 Kapra's
+51077 geffen 203 123 Kapra's
+51091 geffen 203 116 Guide
+51105 geffen 181 114 Aure Dupon
+51053 geffen_in 74 144 Trader
+51050 geffen_in 77 173 Magical Tool Trader
+51218 prontera 282 200 Kapra's
+50787 prontera 106 116 Lady
+51259 prontera 78 150 Dairenne
+51162 prontera 73 134 Milk Merchant
+51235 prontera 282 208 Guide
+54063 prontera 99 100 Thief Guide
+54057 prontera 100 101 Mage Guildsman
+54062 prontera 74 172 Swordman
+54065 prontera 100 95 Knight
+51168 prontera 105 87 Gift Merchant
+51169 prontera 248 153 Doll Merchant
+51236 prontera 29 200 Guide
+51222 prt_fild05 290 224 Kapra's
+51170 prt_fild05 290 221 Tool Dealer
+50779 prt_fild05 270 212 Culvert Guardian
+51166 prontera 58 182 Flower Girl
+51263 prontera 52 350 PecoPeco Breeder
+53828 prt_in 63 69 Dietrich
+53830 prt_in 63 60 Hollgrehenn
+52235 new_1-1 66 114 Bulletin Board
+52238 new_1-2 100 29 Usher
+51377 geffen 119 107 Smile Assistance
+51062 prontera 58 182 Flower Girl
+50626 prontera 149 202 YuNa
+51143 geffen 203 116 Guide

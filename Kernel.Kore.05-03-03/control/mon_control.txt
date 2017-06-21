@@ -1,0 +1,30 @@
+#This file allows specific AI control for certain monsters
+#Syntax: <monster> <auto-attack flag> <auto-teleport flag> <auto-search flag>
+#
+#<monster>:  Name of monster as found in monsters.txt (not case sensitive)
+#
+#<auto-attack flag>: Put a 1 or 0 to auto-attack or leave alone.  This also controls which
+#monsters Kore will tank.
+#
+#<auto-teleport flag>: Put a 1 to teleport if the monster is on the screen.  This is only used in
+#auto-attack mode
+#
+#<auto-search flag>: Put a 1 to teleport if the monster is NOT on the screen.  This is only used in
+#auto-attack mode
+
+#Monsters not found in this file, or flags not specified will default to:
+#<auto-attack flag> = 1
+#<auto-teleport flag> = 0
+#<auto-search flag> = 0
+
+pupa 0 0 0
+lunatic 0 0 0
+theif bug 0 0 0
+thief bug 0 0 0
+poring 0 0 0
+roda frog 0 0 0
+Fabre 0 0 0
+Thief Bug's Egg 0 0 0
+willow 0 0 0
+mandragora 0 1 0
+hornet 0 0 0
