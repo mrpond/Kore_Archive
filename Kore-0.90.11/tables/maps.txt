@@ -1,0 +1,313 @@
+xmas_in.rsw#ルティエ内部#
+xmas_dun02.rsw#おもちゃ分類所#
+xmas_dun01.rsw#おもちゃ工場倉庫#
+xmas_fild01.rsw#ルティエフィルド#
+xmas.rsw#雪の街 ルティエ(Lutie)#
+mjolnir_01.rsw#ミョルニール山脈#
+mjolnir_02.rsw#ミョルニール山脈#
+mjolnir_03.rsw#ミョルニール山脈#
+mjolnir_04.rsw#ミョルニール山脈#
+mjolnir_05.rsw#ミョルニール山脈#
+mjolnir_06.rsw#ミョルニール山脈#
+mjolnir_07.rsw#ミョルニール山脈#
+mjolnir_08.rsw#ミョルニール山脈#
+mjolnir_09.rsw#ミョルニール山脈#
+mjolnir_10.rsw#ミョルニール山脈#
+mjolnir_11.rsw#ミョルニール山脈#
+mjolnir_12.rsw#ミョルニール山脈#
+prt_fild00.rsw#プロンテラフィルド#
+prt_fild01.rsw#プロンテラフィルド#
+prt_fild02.rsw#プロンテラフィルド#
+prt_fild03.rsw#プロンテラフィルド#
+prt_fild04.rsw#プロンテラフィルド#
+prt_fild05.rsw#プロンテラフィルド#
+prt_fild06.rsw#プロンテラフィルド#
+prt_fild07.rsw#プロンテラフィルド#
+prt_fild08.rsw#プロンテラフィルド#
+prt_fild09.rsw#プロンテラフィルド#
+prt_fild10.rsw#プロンテラフィルド#
+prt_fild11.rsw#プロンテラフィルド#
+prt_monk.rsw#聖カピトーリナ修道院#
+gef_fild00.rsw#ゲフェンフィルド#
+gef_fild01.rsw#ゲフェンフィルド#
+gef_fild02.rsw#ゲフェンフィルド#
+gef_fild03.rsw#ゲフェンフィルド#
+gef_fild04.rsw#ゲフェンフィルド#
+gef_fild05.rsw#ゲフェンフィルド#
+gef_fild06.rsw#ゲフェンフィルド#
+gef_fild07.rsw#ゲフェンフィルド#
+gef_fild08.rsw#ゲフェンフィルド#
+gef_fild09.rsw#ゲフェンフィルド#
+gef_fild10.rsw#ゲフェンフィルド#
+in_orcs01.rsw#オーク村の室内#
+gef_fild11.rsw#ゲフェンフィルド#
+moc_fild01.rsw#ソグラト砂漠#
+moc_fild02.rsw#ソグラト砂漠#
+moc_fild03.rsw#ソグラト砂漠#
+moc_fild04.rsw#ソグラト砂漠#
+moc_fild05.rsw#ソグラト砂漠#
+moc_fild06.rsw#ソグラト砂漠#
+moc_fild07.rsw#ソグラト砂漠#
+moc_fild08.rsw#ソグラト砂漠#
+moc_fild09.rsw#ソグラト砂漠#
+moc_fild10.rsw#ソグラト砂漠#
+moc_fild11.rsw#ソグラト砂漠#
+moc_fild12.rsw#ソグラト砂漠#
+moc_fild13.rsw#ソグラト砂漠#
+moc_fild14.rsw#ソグラト砂漠#
+moc_fild15.rsw#ソグラト砂漠#
+moc_fild16.rsw#ソグラト砂漠#
+in_moc_16.rsw#アサシンギルド#
+moc_fild17.rsw#ソグラト砂漠#
+moc_fild18.rsw#ソグラト砂漠#
+moc_fild19.rsw#ソグラト砂漠#
+pay_fild01.rsw#フェイヨン森の中#
+pay_fild02.rsw#フェイヨン森の中#
+pay_fild03.rsw#フェイヨン森の中#
+pay_fild04.rsw#ソグラト砂漠#
+pay_fild05.rsw#フェイヨン森の中#
+pay_fild06.rsw#フェイヨン森の中#
+pay_fild07.rsw#フェイヨン森の中#
+pay_fild08.rsw#フェイヨン森の中#
+pay_fild09.rsw#フェイヨン森の中#
+pay_fild10.rsw#フェイヨン森の中#
+pay_fild11.rsw#フェイヨン森の中#
+new_1-1.rsw#初心者修練場#
+new_2-1.rsw#初心者修練場#
+new_3-1.rsw#初心者修練場#
+new_4-1.rsw#初心者修練場#
+new_5-1.rsw#初心者修練場#
+new_1-2.rsw#初心者修練場#
+new_2-2.rsw#初心者修練場#
+new_3-2.rsw#初心者修練場#
+new_4-2.rsw#初心者修練場#
+new_5-2.rsw#初心者修練場#
+new_1-3.rsw#初心者修練場#
+new_2-3.rsw#初心者修練場#
+new_3-3.rsw#初心者修練場#
+new_4-3.rsw#初心者修練場#
+new_5-3.rsw#初心者修練場#
+new_1-4.rsw#初心者修練場#
+new_2-4.rsw#初心者修練場#
+new_3-4.rsw#初心者修練場#
+new_4-4.rsw#初心者修練場#
+new_5-4.rsw#初心者修練場#
+anthell01.rsw#蟻地獄ダンジョン#
+anthell02.rsw#蟻地獄ダンジョン#
+gef_dun00.rsw#ゲフェン地下ダンジョン#
+gef_dun01.rsw#ゲフェン地下ダンジョン#
+gef_dun02.rsw#ゲフェニアダンジョン#
+gef_dun03.rsw#ゲフェニアダンジョン#
+iz_dun00.rsw#海底洞窟ダンジョン#
+iz_dun01.rsw#海底洞窟ダンジョン#
+iz_dun02.rsw#海底洞窟ダンジョン#
+iz_dun03.rsw#海底洞窟ダンジョン#
+iz_dun04.rsw#海底洞窟ダンジョン#
+iz_dun05.rsw#海底洞窟ダンジョン#
+in_sphinx1.rsw#スフィンクスダンジョン#
+in_sphinx2.rsw#スフィンクスダンジョン#
+in_sphinx3.rsw#スフィンクスダンジョン#
+in_sphinx4.rsw#スフィンクスダンジョン#
+in_sphinx5.rsw#スフィンクスダンジョン#
+moc_pryd01.rsw#ピラミッドダンジョン#
+moc_pryd02.rsw#ピラミッドダンジョン#
+moc_pryd03.rsw#ピラミッドダンジョン#
+moc_pryd04.rsw#ピラミッドダンジョン#
+moc_pryd05.rsw#ピラミッドダンジョン#
+moc_pryd06.rsw#ピラミッドダンジョン#
+moc_prydb1.rsw#盗賊ギルド#
+mjo_dun01.rsw#ミョルニール廃鉱#
+mjo_dun02.rsw#ミョルニール廃鉱#
+mjo_dun03.rsw#ミョルニール廃鉱#
+orcsdun01.rsw#オーク地下洞窟#
+orcsdun02.rsw#オーク地下洞窟#
+pay_dun00.rsw#フェイヨン地下#
+pay_dun01.rsw#フェイヨン地下#
+pay_dun02.rsw#フェイヨン地下#
+pay_dun03.rsw#地下廃家村#
+pay_dun04.rsw#地下廃家村#
+prt_maze01.rsw#迷宮の森#
+prt_maze02.rsw#迷宮の森#
+prt_maze03.rsw#迷宮の森#
+prt_sewb1.rsw#プロンテラ地下水路#
+prt_sewb2.rsw#プロンテラ地下水路#
+prt_sewb3.rsw#プロンテラ地下水路#
+prt_sewb4.rsw#プロンテラ地下水路#
+treasure01.rsw#沈没船1層#
+treasure02.rsw#沈没船2層#
+hunter_1-1.rsw#ハンター転職所#
+hunter_2-1.rsw#ハンター転職所#
+hunter_3-1.rsw#ハンター転職所#
+in_hunter.rsw#ハンター転職所#
+knight_1-1.rsw#ナイト転職所#
+knight_2-1.rsw#ナイト転職所#
+knight_3-1.rsw#ナイト転職所#
+priest_1-1.rsw#プリースト転職所#
+priest_2-1.rsw#プリースト転職所#
+priest_3-1.rsw#プリースト転職所#
+sword_1-1.rsw#剣士転職所#
+sword_2-1.rsw#剣士転職所#
+sword_3-1.rsw#剣士転職所#
+job_thief1.rsw#盗賊転職所#
+wizard_1-1.rsw#ウィザード転職所#
+wizard_2-1.rsw#ウィザード転職所#
+wizard_3-1.rsw#ウィザード転職所#
+force_1-1.rsw#タイムアタックモード#
+force_2-1.rsw#タイムアタックモード#
+force_3-1.rsw#タイムアタックモード#
+force_1-2.rsw#タイムアタックモード#
+force_2-2.rsw#タイムアタックモード#
+force_3-2.rsw#タイムアタックモード#
+force_1-3.rsw#タイムアタックモード#
+force_2-3.rsw#タイムアタックモード#
+force_3-3.rsw#タイムアタックモード#
+ordeal_1-1.rsw#バトルオディールモード#
+ordeal_2-1.rsw#バトルオディールモード#
+ordeal_3-1.rsw#バトルオディールモード#
+ordeal_1-2.rsw#バトルオディールモード#
+ordeal_2-2.rsw#バトルオディールモード#
+ordeal_3-2.rsw#バトルオディールモード#
+ordeal_1-3.rsw#バトルオディールモード#
+ordeal_2-3.rsw#バトルオディールモード#
+ordeal_3-3.rsw#バトルオディールモード#
+ordeal_1-4.rsw#バトルオディールモード#
+ordeal_2-4.rsw#バトルオディールモード#
+ordeal_3-4.rsw#バトルオディールモード#
+alb_ship.rsw#アルベルタ船舶の中#
+alberta.rsw#港の都市アルベルタ#
+alberta_in.rsw#港の都市アルベルタ#
+alb2trea.rsw#沈没船の付近の島#
+aldebaran.rsw#国境都市アルデバラン#
+aldeba_in.rsw#国境都市アルデバラン#
+gef_tower.rsw#ゲフェン中央塔#
+geffen.rsw#魔法の都市ゲフェン#
+geffen_in.rsw#魔法の都市ゲフェン#
+moc_castle.rsw#モロク城内#
+moc_ruins.rsw#砂漠の都市モロク#
+morocc.rsw#砂漠の都市モロク#
+morocc_in.rsw#砂漠の都市モロク#
+pay_arche.rsw#山岳の都市フェイヨン#
+payon.rsw#山岳の都市フェイヨン#
+payon_in01.rsw#山岳の都市フェイヨン#
+payon_in02.rsw#山岳の都市フェイヨン#
+prontera.rsw#ルーンミッドガッツ王国の首都プロンテラ#
+prt_in.rsw#ルーンミッドガッツ王国の首都プロンテラ#
+prt_castle.rsw#プロンテラ城内#
+prt_church.rsw#プロンテラ聖堂内#
+izlude.rsw#衛星都市イズルード#
+izlude_in.rsw#衛星都市イズルード#
+izlu2dun.rsw#衛星都市イズルード#
+monk_in.rsw#聖カピトーリナ修道院内#
+prt_are_in.rsw#アリーナ待機室#
+arena_room.rsw#アリーナ待機室#
+prt_arena01.rsw#アリーナ#
+prt_are01.rsw#アリーナ#
+glast_01.rsw#グラストヘイム古城#
+alde_dun01.rsw#アルデバラン時計塔地下１Ｆ#
+alde_dun02.rsw#アルデバラン時計塔地下 2Ｆ#
+alde_dun03.rsw#アルデバラン時計塔地下 3Ｆ#
+alde_dun04.rsw#アルデバラン時計塔地下 4Ｆ#
+c_tower1.rsw#アルデバラン時計塔地上 1F#
+c_tower2.rsw#アルデバラン時計塔地上 2F#
+c_tower3.rsw#アルデバラン時計塔地上 3F#
+c_tower4.rsw#アルデバラン時計塔地上 4F#
+gl_cas01.rsw#グラストヘイム古城1F#
+gl_cas02.rsw#グラストヘイム古城2F#
+gl_church.rsw#グラストヘイム 修道院#
+gl_chyard.rsw#グラストヘイム カタコン#
+gl_dun01.rsw#グラストヘイム 最下層 地下洞窟#
+gl_dun02.rsw#グラストヘイム 最下層 地下洞窟#
+gl_in01.rsw#グラストヘイム 室内#
+gl_knt01.rsw#グラストヘイム 騎士団内#
+gl_knt02.rsw#グラストヘイム 騎士団内#
+gl_prison.rsw#グラストヘイム 地下監獄#
+gl_prison1.rsw#グラストヘイム 地下監獄#
+gl_sew01.rsw#グラストヘイム地下水路#
+gl_sew02.rsw#グラストヘイム地下水路#
+gl_sew03.rsw#グラストヘイム地下水路#
+gl_sew04.rsw#グラストヘイム地下水路#
+gl_step.rsw#グラストヘイム 階段ダンジョン#
+pvp_y_room.rsw#PvP : 控え室#
+pvp_n_room.rsw#PvP : 控え室#
+pvp_c_room.rsw#PvP : 控え室#
+pvp_n_1-1.rsw#PvP : 南北戦争#
+pvp_n_2-1.rsw#PvP : 南北戦争#
+pvp_n_3-1.rsw#PvP : 南北戦争#
+pvp_n_4-1.rsw#PvP : 南北戦争#
+pvp_n_5-1.rsw#PvP : 南北戦争#
+pvp_n_6-1.rsw#PvP : 南北戦争#
+pvp_n_7-1.rsw#PvP : 南北戦争#
+pvp_n_8-1.rsw#PvP : 南北戦争#
+pvp_n_1-2.rsw#PvP : ロックオン#
+pvp_n_2-2.rsw#PvP : ロックオン#
+pvp_n_3-2.rsw#PvP : ロックオン#
+pvp_n_4-2.rsw#PvP : ロックオン#
+pvp_n_5-2.rsw#PvP : ロックオン#
+pvp_n_6-2.rsw#PvP : ロックオン#
+pvp_n_7-2.rsw#PvP : ロックオン#
+pvp_n_8-2.rsw#PvP : ロックオン#
+pvp_n_1-3.rsw#PvP : フォールーム#
+pvp_n_2-3.rsw#PvP : フォールーム#
+pvp_n_3-3.rsw#PvP : フォールーム#
+pvp_n_4-3.rsw#PvP : フォールーム#
+pvp_n_5-3.rsw#PvP : フォールーム#
+pvp_n_6-3.rsw#PvP : フォールーム#
+pvp_n_7-3.rsw#PvP : フォールーム#
+pvp_n_8-3.rsw#PvP : フォールーム#
+pvp_n_1-4.rsw#PvP : アンダークロス#
+pvp_n_2-4.rsw#PvP : アンダークロス#
+pvp_n_3-4.rsw#PvP : アンダークロス#
+pvp_n_4-4.rsw#PvP : アンダークロス#
+pvp_n_5-4.rsw#PvP : アンダークロス#
+pvp_n_6-4.rsw#PvP : アンダークロス#
+pvp_n_7-4.rsw#PvP : アンダークロス#
+pvp_n_8-4.rsw#PvP : アンダークロス#
+pvp_n_1-5.rsw#PvP : ザナクルーム#
+pvp_n_2-5.rsw#PvP : ザナクルーム#
+pvp_n_3-5.rsw#PvP : ザナクルーム#
+pvp_n_4-5.rsw#PvP : ザナクルーム#
+pvp_n_5-5.rsw#PvP : ザナクルーム#
+pvp_n_6-5.rsw#PvP : ザナクルーム#
+pvp_n_7-5.rsw#PvP : ザナクルーム#
+pvp_n_8-5.rsw#PvP : ザナクルーム#
+pvp_y_1-1.rsw#PvP : プロンテラ#
+pvp_y_2-1.rsw#PvP : プロンテラ#
+pvp_y_3-1.rsw#PvP : プロンテラ#
+pvp_y_4-1.rsw#PvP : プロンテラ#
+pvp_y_5-1.rsw#PvP : プロンテラ#
+pvp_y_6-1.rsw#PvP : プロンテラ#
+pvp_y_7-1.rsw#PvP : プロンテラ#
+pvp_y_8-1.rsw#PvP : プロンテラ#
+pvp_y_1-2.rsw#PvP : イズルード#
+pvp_y_2-2.rsw#PvP : イズルード#
+pvp_y_3-2.rsw#PvP : イズルード#
+pvp_y_4-2.rsw#PvP : イズルード#
+pvp_y_5-2.rsw#PvP : イズルード#
+pvp_y_6-2.rsw#PvP : イズルード#
+pvp_y_7-2.rsw#PvP : イズルード#
+pvp_y_8-2.rsw#PvP : イズルード#
+pvp_y_1-3.rsw#PvP : フェイヨン#
+pvp_y_2-3.rsw#PvP : フェイヨン#
+pvp_y_3-3.rsw#PvP : フェイヨン#
+pvp_y_4-3.rsw#PvP : フェイヨン#
+pvp_y_5-3.rsw#PvP : フェイヨン#
+pvp_y_6-3.rsw#PvP : フェイヨン#
+pvp_y_7-3.rsw#PvP : フェイヨン#
+pvp_y_8-3.rsw#PvP : フェイヨン#
+pvp_y_1-4.rsw#PvP : アルベルタ#
+pvp_y_2-4.rsw#PvP : アルベルタ#
+pvp_y_3-4.rsw#PvP : アルベルタ#
+pvp_y_4-4.rsw#PvP : アルベルタ#
+pvp_y_5-4.rsw#PvP : アルベルタ#
+pvp_y_6-4.rsw#PvP : アルベルタ#
+pvp_y_7-4.rsw#PvP : アルベルタ#
+pvp_y_8-4.rsw#PvP : アルベルタ#
+pvp_y_1-5.rsw#PvP : モロク#
+pvp_y_2-5.rsw#PvP : モロク#
+pvp_y_3-5.rsw#PvP : モロク#
+pvp_y_4-5.rsw#PvP : モロク#
+pvp_y_5-5.rsw#PvP : モロク#
+pvp_y_6-5.rsw#PvP : モロク#
+pvp_y_7-5.rsw#PvP : モロク#
+pvp_y_8-5.rsw#PvP : モロク#
+pvp_2vs2.rsw#PvP : イベントホール#

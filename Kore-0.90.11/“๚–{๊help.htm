@@ -1,0 +1,812 @@
+<html>
+<head>
+<title>The Kore Project
+</title>
+<link rel="stylesheet" href="/styles/styles.css" type="text/css">
+</head>
+<body text="#000000" marginwidth="0" marginheight="0" leftmargin="0" topmargin="0">
+<table width="730" border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2">
+<br><br>
+<font class="title"><center><b>The Kore Project</b></center></font></font>
+<br><br>
+</td></tr>
+<tr><td width="150" valign="top">
+<font class="sidetext">
+ &nbsp; &nbsp; <b><a href="http://ro.l33t.ca">News</a></b>
+<br><br>
+ &nbsp; &nbsp; <b><a href="http://ro.l33t.ca/info.html">Kore Info</a></b>
+<br><br>
+ &nbsp; &nbsp; <b><a href="http://ro.l33t.ca/reference/">Beta 2 Info</a></b>
+<br><br>
+ &nbsp; &nbsp; <b><a href="http://ro.l33t.ca/downloads/">Download</a></b>
+<br><br>
+ &nbsp; &nbsp; <b><a href="http://ro.l33t.ca/help.html">Help</a></b>
+<br><br>
+ &nbsp; &nbsp; <b><a href="http://forums.ro.l33t.ca">Forums</a></b>
+</font>
+</td>
+<td width="600" height="700" valign="top">
+
+<font class="content">
+<font size="5"><b>Map</b></font>
+<br><br><a href="#Syn">文法定義</a>
+<br><br><a href="#Con">コンソールコマンド</a>
+<br> &nbsp; &bull; <a href="#ConA">アクション</a>
+<br> &nbsp; &bull; <a href="#ConCF">チャット機能</a>
+<br> &nbsp; &bull; <a href="#ConCRM">チャットルーム</a>
+<br> &nbsp; &bull; <a href="#ConCM">Configuration Modification</a>
+<br> &nbsp; &bull; <a href="#ConD">取引</a>
+<br> &nbsp; &bull; <a href="#ConIM">アイテム関連</a>
+<br> &nbsp; &bull; <a href="#ConL">リスト</a>
+<br> &nbsp; &bull; <a href="#ConNPC">NPCとの取引</a>
+<br> &nbsp; &bull; <a href="#ConPM">パーティ関連</a>
+<br> &nbsp; &bull; <a href="#ConPW">Party Warper Mode</a>
+<br> &nbsp; &bull; <a href="#ConSM">Status/Skill Management</a>
+<br> &nbsp; &bull; <a href="#ConSF">システム機能</a>
+<br><br><a href="#Cha">チャットコマンド</a>
+<br> &nbsp; &bull; <a href="#ChaA">Actions</a>
+<br> &nbsp; &bull; <a href="#ChaCM">Configuration Modification</a>
+<br> &nbsp; &bull; <a href="#ChaPW">Party Warper Mode</a>
+<br> &nbsp; &bull; <a href="#ChaSF">System Functions</a>
+<br><br><a href="#Conf">Config.txt</a>
+<br><br><a href="#Resp">Responses.txt</a>
+<br> &nbsp; &bull; <a href="#RespO">Overview</a>
+<br> &nbsp; &bull; <a href="#RespGV">Global Variables</a>
+<br><br><a href="#AS">Autosell.txt</a>
+<br><br><br><br><a name="Syn"><font size="5"><b>文法定義</b></font>
+<br><br><b>|</b> - OR
+<br><br><b>()</b> - 必須パラメータ
+<br><br><b>[]</b> - オプションパラメータ
+<br><br><b>flag</b> - 1 または 0 (on または off).
+<br><br><b>""</b> - 文字
+<br><br><b>callsign</b> - Callsignはconfig.txtの中で指定されたもの.  The callsign is not case sensitive.  Callsignはパーティチャット/ウィスパーでは必要とされない。
+<br><br><hr>
+<a name="Con"><br><br><br><br><font size="5"><b>コンソールコマンド</b></font>
+<br>
+<a name="ConA"><br><br><br><font size="4"><b>アクション</b></font>
+<br><br><br><b>a (monster #)</b>
+<br>
+<br><i>monster #</i> - モンスターリストに対応した数字
+<br>
+<br>武器でモンスターに攻撃する
+<br><br><br><b>follow (player #)</b>
+<br
+<br><i>player #</i> -  プレイヤーリストに対応した数字
+<br>
+<br>追尾するプレイヤーを指定する
+<br><br><br><b>follow stop</b>
+<br>
+<br>プレイヤーを追尾するのをやめる
+<br><br><br><b>drop (inventory item #) [(amount)]</b>
+<br>
+<br><i>inventory item #</i> - 所持アイテムリストのアイテムに対応した数字
+<br>
+<br><i>amount</i>個地面にアイテムを落とす。  もし<i>amount</i>を指定しなければ最大数量の<i>amount</i>を落とす
+<br><br><br><b>im (inventory item #) (monster #)</b>
+<br>
+<br><i>inventory item #</i> - 所持アイテムリストのアイテムに対応した数字
+<br>
+<br><i>monster #</i> - モンスターリストのモンスターに対応した数字
+<br>
+<br>モンスターにアイテムを使う
+<br><br><br><b>ip (inventory item #) (player #)</b>
+<br>
+<br><i>inventory item #</i> - 所持アイテムリストのアイテムに対応した数字
+<br>
+<br><i>player #</i> - プレイヤーリストに対応した数字
+<br>
+<br>他プレイヤーにアイテムを使う
+<br><br><br><b>is (inventory item #)</b>
+<br>
+<br><i>inventory item #</i> - 所持アイテムリストのアイテムに対応した数字
+<br>
+<br>アイテムを自分に使う
+<br><br><br><b>look (body dir) [(head dir)]</b>
+<br>
+<br><i>body dir</i> - 0-7を指定. 0 (北), 2 (西), 4 (南), 6 (東)
+<br>
+<br><i>head dir</i> - 0-2を指定. 0 (正面), 1 (右), 2 (左)
+<br>
+<br>指定方向を向く.  もし<i>head dir</i>を指定しなければ, 頭は体と同じ方向を向く
+<br><br><br><b>move (x) (y)</b>
+<br>
+<br>座標(x, y)に移動する - このコマンドはあまりに遠い座標を指定すると実行されない.  移動できる距離は20 blocks, かつ障害物が無いこと。
+<br><br><br><b>respawn</b>
+<br>
+<br>セーブポイントに戻る.  いつでも実行できる
+<br><br><br><b>sit</b>
+<br>
+<br>座る
+<br><br><br><b>sm (skill #) (monster #) [(skill lvl)]</b>
+<br>
+<br><i>skill #</i> -  スキルリストに対応した数字
+<br>
+<br><i>monster #</i> - モンスターリストに対応した数字
+<br>
+<br>モンスターにスキルを使う.  もし<i>skill lvl</i>を指定しなかったら, 最大の<i>skill lvl</i>で使われる
+<br><br><br><b>sp (skill #) (player #) [(skill lvl)]</b>
+<br>
+<br><i>skill #</i> -  スキルリストに対応した数字
+<br>
+<br><i>player #</i> - プレイヤーリストに対応した数字
+<br>
+<br>他プレイヤーにスキルを使う.  もし<i>skill lvl</i>を指定しなかったら, 最大の<i>skill lvl</i>で使われる
+<br><br><br><b>ss (skill #) [(skill lvl)]</b>
+<br>
+<br><i>skill #</i> -  スキルリストに対応した数字
+<br>
+<br>自分にスキルを使う.  もし<i>skill lvl</i>を指定しなかったら, 最大の<i>skill lvl</i>で使われる
+<br><br><br><b>stand</b>
+<br>
+<br>立ち上がる
+<br><br><br><b>take (item #)</b>
+<br>
+<br><i>item #</i> - アイテムリストのアイテムに対応した数字
+<br>
+<br>地面からアイテムを拾う
+<br><br><br><b>tank (player #)</b>
+<br>
+<br><i>player #</i> -  プレイヤーリストに対応した数字
+<br>
+<br>指定プレイヤーのために壁になる
+<br><br><br><b>tank stop</b>
+<br>
+<br>壁モード終了
+<br><br><br><b>tele</b>
+<br>
+<br>同マップにランダムワープする
+<a name="ConCF"><br><br><br><font size="4"><b>チャット機能</b></font>
+<Br>
+<br><br><br><b>c (message)</b>
+<br>
+<br>オープンチャット. チャットルームでの発言にも使う
+<br><br><br><b>e (emotion #)</b>
+<br>
+<br><i>emotion #</i> -1-13を指定
+<br>
+<br>エモーションを出す (heart, sweat, anger, etc.)
+<br><br><br><b>ignore (flag) (username)</b>
+<br>
+<br><i>username</i>を無視するよう切り替える.  無視リストはサーバ側には保存されないので再ログインすると消去される
+<br><br><br><b>p (message)</b>
+<br>
+<br>パーティチャット
+<br><br><br><b>pm (username | pm #) (message)</b>
+<br>
+<br><i>pm #</i> - PM Listに対応した数字
+<br>
+<br>whisper機能
+<a name="ConCRM"><br><br><br><font size="4"><b>チャットルーム関連機能</b></font>
+<br>
+<br><br><br><b>bestow (chat user #)</b>
+<br>
+<br><i>chat user #</i> - Chat Room Infoに対応した数字
+<br>
+<br>ルームマスター権限を渡す
+<br><br><br><b>chat "(title)" [(limit) (public flag) (password)]</b>
+<br>
+<br><i>"title"</i> - チャットルームタイトル. ""で囲むのを忘れてはいけない。
+<br>
+<br><i>limit</i> - チャットルームに入れる人数
+<br>
+<br><i>public flag</i> - 1 (公開), 0 (鍵付き)
+<br>
+<br>チャットルームを作る. デフォルトでは20人公開チャットになる。
+<br><br><br><b>chatmod "(title)" [(limit) (public flag) (password)]</b>
+<br>
+<br><b>chat</b>と同じようなコマンドだが, 新しいチャットルームを作る代わりに今のチャットルームの設定を変えられる
+<br><br><br><b>join (chat room #) [(password)]</b>
+<br>
+<br><i>chat room #</i> -  Chat Room Listに対応した数字
+<br>
+<br>チャットルームに入る
+<br><br><br><b>leave</b>
+<br>
+<br>現在のチャットルームから出る
+<br><br><br><b>kick (chat user #)</b>
+<br>
+<br><i>chat user #</i> - Chat Room Infoに対応した数字
+<br>
+<br>チャットルームから指定ユーザを追い出す
+<a name="ConCM"><br><br><br><font size="4"><b>設定項目の変更</b></font>
+<br><br><br><b>auth (username) (flag)</b>
+<br>
+<br><i>username</i>をコマンドを使えるよう許可する
+<br><br><br><b>conf (variable) [(value)]</b>
+<br>
+<br><i>variable</i> - A variable from the config.txt file
+<br>
+<br>Sets the config <i>variable</i> to <i>value</i> and rewrites config.txt.  If no <i>value</i> is specified then the value of <i>variable</i> will be displayed
+<br><br><br><b>timeout (type) (seconds)</b>
+<br>
+<br><i>type</i> - the exact name from the Timeout Table (in the Control directory)
+<br>
+<br><i>seconds</i> - number of seconds, a possibly fractional value (ie. 0.5)
+<br>
+<br>Sets the specified timeout to <i>seconds</i> and rewrites timeouts.txt. If no <i>value</i> is specified th
+en the value of <i>type</i> will be displayed
+<a name="ConD"><br><br><br><font size="4"><b>取引</b></font>
+<br>
+<br><br><br><b>deal</b>
+<br>
+<br>Use 1: 取引要請をOKする
+<br>Use 2: 取引するものを指定してOKする
+<br>Use 3: 双方OKになりtrade完了させる
+<br><br><br><b>deal (player #)</b>
+<br>
+<br><i>player #</i> - プレイヤーリストに対応した数字
+<br>
+<br>プレイヤーに取引要請を出す
+<br><br><br><b>deal no</b>
+<br>
+<br>Use 1: 取引要請をキャンセルする
+<br>Use 2: 現在の取引をキャンセルする
+<br><br><br><b>deal add (inventory item # | "z") [(amount)]</b>
+<br>
+<br><i>inventory item #</i> - 所持アイテムリストに対応した数字
+<br>
+<br><i>z</i> - 渡したい金額のzenny
+<br>
+<br>取引ウィンドウに<i>amount</i>個のアイテム/zennyを加える.  もし<i>amount</i>を指定しなければ, 最大の<i>amount</i>で追加される
+<a name="ConIM"><br><br><br><font size="4"><b>Item/Inventory Management</b></font>
+<br>
+<br><br><br><b>buy (store item #) [(amount)]</b>
+<br>
+<br><i>store item #</i> - Store Listに対応した数字
+<br>
+<br>指定した<i>amount</i>店からアイテムを買う.  もし<i>amount</i>を指定しなければ, ひとつだけ買う.  アイテムを買うには店の近くにいなければならない
+<br><br><br><b>eq (inventory item #)</b>
+<br>
+<br><i>inventory item #</i> -  Inventory Listに対応した数字
+<br>
+<br>アイテムを装備する
+<br><br><br><b>identify (identify item #)</b>
+<br>
+<Br><i>identify item #</i> -  Identify Listに対応した数字
+<br>
+<br>鑑定スキルまたは虫眼鏡を使ってアイテムを鑑定する
+<br><br><br><b>sell (inventory item #) [(amount)]</b>
+<br>
+<br><i>inventory item #</i> - Inventory Listに対応した数字
+<br>
+<br>指定した<i>amount</i>アイテムを店に売る.  もし<i>amount</i>を指定しなければ, 最大<i>amount</i>売る. アイテムはどこでも売れる
+<br><br><br><b>storage add (inventory item #) [(amount)]</b>
+<br>
+<br><i>inventory item #</i> -  Inventory Listに対応した数字
+<br>
+<br>倉庫にアイテムを加える. もし<i>amount</i>を指定しなければ, 最大<i>amount</i>加える
+<br><br><br><b>storage close</b>
+<br>
+<br>倉庫を閉じる
+<br><br><br><b>storage get (storage item #) [(amount)]</b>
+<br>
+<br><i>storage item #</i> -  Storage Listに対応した数字
+<br>
+<br>倉庫からアイテムを引き出す. もし<i>amount</i>を指定しなければ, 最大<i>amount</i>引き出す
+<br><br><br><b>uneq (inventory item #)</b>
+<br>
+<br><i>inventory item #</i> -  Inventory Listに対応した数字
+<br>
+<br>装備を外す
+<a name="ConL"><br><br><br><font size="4"><b>リスト</b></font>
+<br><br><br><b>cri</b>
+<br>
+<br>チャットルーム情報.  現在入っているチャットルームについての詳細とユーザーリスト表示
+<br><br><br><b>crl</b>
+<br>
+<br>チャットルームリストの表示. 見えている範囲のチャットルームを表示する
+<br><br><br><b>dl</b>
+<br>
+<br>Deal List（取引リスト）.  現在の取引の詳細 - 自分と相手のアイテム+個数, zenny, 取引の段階etc.
+<br><br><br><b>idenitify</b>
+<br>
+<br>Item Identify List（アイテム鑑定リスト）.  虫眼鏡か鑑定スキルを使った後、このリストの中のアイテムのひとつを鑑定できる.
+<br><br><br><b>i</b>
+<br>
+<br>Inventory List（所持アイテムリスト）.  使用可能アイテム, 収集品, 装備品に分けられている.
+<br><br><br><b>i desc [(Inventory Item #)]</b>
+<br>
+<br><i>Inventory Item #</i> - 所持アイテムリストに対応した数字
+<br>
+<br>アイテムの説明を見ることができる
+<br><br><br><b>il</b>
+<br>
+<br>Item List（アイテムリスト）.  見えている範囲の落ちているアイテムを表示する
+<br><br><br><b>ml</b>
+<br>
+<br>Monster List（モンスターリスト）. 見えている範囲のモンスターを表示する
+<br><br><br><b>nl</b>
+<br>
+<br>NPC List（NPCリスト）. 見えている範囲のNPCを表示する
+<br><br><br><b>party</b>
+<br>
+<br>Party List（パーティリスト）. パーティメンバーの接続状態, 位置, 健康状態を表示する
+<br><br><br><b>pl</b>
+<br>
+<br>Player List（プレイヤーリスト）. 見えている範囲の他プレイヤーを表示する
+<br><br><br><b>pml</b>
+<br>
+<Br>Private Message List（ウィスパー[友達]リスト）. いわゆる友達リストに似たようなもの - ウィスパーメッセージを送った/送られた相手が登録されている.
+<br><br><br><b>portals</b>
+<br>
+<br>Portal List（ポータルリスト）.  見えている範囲のマップ間の移動ポイントを表示する. ワープポータルではない
+<br><br><br><b>skills</b>
+<br>
+<br>Skill List（スキルリスト）.  持っているスキルのレベルとSP消費量を表示する
+<br><br><br><b>skills desc [(Skill #)]</b>
+<br>
+<br><i>Skill #</i> - Skill Listに対応した数字
+<br>
+<br>スキルの説明の表示
+<br><br><br><b>storage</b>
+<br>
+<br>Storage List（倉庫リスト）.  カプラに話し倉庫代を払った後このコマンドで倉庫の中身を表示できる.
+<br><br><br><b>store</b>
+<br>
+<br>Store List（お店リスト）.  最後に訪れた店NPCのアイテムと価格情報の表示
+<br><br><br><b>store desc [(store #)]</b>
+<br>
+<br><i>store #</i> - Store Listに対応した数字
+<br>
+<br>店で売っているアイテムの説明の表示
+<br><br><br><b>talk resp</b>
+<br>
+<br>Response List（会話リスト）.  NPCとの会話内容が表示される
+<a name="ConNPC"><br><br><br><font size="4"><b>NPC Interaction</b></font>
+<br><br><br><b>talk (npc #)</b>
+<br>
+<br><i>npc #</i> - NPC Listに対応した数字
+<br>
+<br>NPCに話しかける
+<br><br><br><b>talk cont</b>
+<br>
+<br>現在のNPCとの会話を次にすすめる（nextボタンを押す意味）
+<br><br><br><b>talk no</b>
+<br>
+<br>NPCとの会話をキャンセルする
+<br><br><br><b>talk resp (response #)</b>
+<br>
+<br><i>response #</i> -  Response Listに対応した数字
+<br>
+<br>NPCに返事をする (選択肢がでている場合)
+<a name="ConPM"><br><br><br><font size="4"><b>パーティ関連</b></font>
+<br>
+<br><br><br><b>party create "(party name)"</b>
+<br>
+<br><i>"party name"</i> - クォーテーション(")で囲むのを忘れてはいけない
+<br>
+<br>パーティを作る
+<br><br><br><b>party join (flag)</b>
+<br>
+<br>パーティ加入要請を受け入れる(1)/拒否する(0)
+<br><br><br><b>party kick (party member #)</b>
+<br>
+<br><i>party member #</i> -  Party Listに対応した数字
+<br>
+<br>パーティからメンバーを追い出す
+<br><br><br><b>party leave</b>
+<br>
+<br>パーティから抜ける
+<br><br><br><b>party request (player #)</b>
+<br>
+<br><i>player #</i> - Player Listに対応した数字
+<br>
+<br>パーティ加入要請を出す
+<br><br><br><b>party share (flag)</b>
+<br>
+<br><i>flag</i> - 1 (共有), 0 (個別分配)
+<br>
+<br>経験値分配設定
+<a name="ConPW"><br><br><br><font size="4"><b>Party Warper Mode</b></font>
+<br>
+<br>ワープポータルはブルージェムもSPもなしに出すことができる.  SPはワープポータルがある座標に移動するときに必要なだけである.
+<br>
+<br>もしワープポータルをどこに開くか変えたい場合, conf コマンドを使う:
+<br>
+<br><i>conf partyWarper_slot_current 0</i>
+<br>
+<br>この場合, 次のポータルは<i>partyWarper_slot_0</i>に開かれる
+<br><br><br><b>pw_auth (username) (flag)</b>
+<br>
+<br><i>username</i>にワープポータルの許可を切り替える.  この許可はチャットコマンドを通し全てのポータルコマンドを実行できる
+<br><br><br><b>pw_setup [(x) (y)]</b>
+<br>
+<br>座標 (<i>x</i>, <i>y</i>)にワープポータルを開く準備をする.  ワープポータルは同マップ内ならどこにでも開くことができる.  もし座標を指定されなければ前回指定された座標と同じ数値がセットされる.  この座標はログインし直す度に設定しなおさなかればいけない（保存されない）
+<br><br><br><b>pw_open</b>
+<br>
+<br>ワープポータルを開く
+<br><br><br><b>pw_open2 (flag)</b>
+<br>
+<br>永久ポータルを開くまたは閉じる　(20秒毎に開き続ける).
+<a name="ConSM"><br><br><br><font size="4"><b>ステータス/スキル関連</b></font>
+<br><br><br><b>s</b>
+<br>
+<br>ステータスの表示.  ステータスウィンドウと似たようなもの
+<br><br><br><b>st</b>
+<br>
+<br>ステータスの詳細表示.  (str, agi, attack etc.)
+<br><br><br><b>skill add (Skill #)</b>
+<br>
+<br><i>Skill #</i> - Skill Listに対応した数字
+<br>
+<br>指定したスキルにスキルポイントを振る
+<br><br><br><b>stat_add (str | agi | vit | int | dex | luk)</b>
+<br>
+<br>ステータスにポイントを振る
+<br><br><br><b>memo</b>
+<br>
+<br>ワープポータル先の座標をメモする
+<br><br><br><b>where</b>
+<br>
+<br>現在座標値の表示
+<br><br><br><b>who</b>
+<br>
+<br>オンラインユーザ数の表示
+<a name="ConSF"><br><br><br><font size="4"><b>システム機能</b></font>
+<br>
+<br><br><br><b>dump</b>
+<br>
+<br>プログラムを終了し、現在のパケットをDUMP.txtに書き出す
+<br><br><br><b>quit</b>
+<br>
+<br>プログラムの終了
+<br><br><br><b>reload (partial name | "all") ["except" (partial name)] </b>
+<br>
+<br>Reloads all configuration/table files that match <i>partial name</i>, and if specified, excludes any files that match <i>partial name</i> after <i>except</i>
+<br>
+<br>Ex. <i>reload tables except monsters</i> - reloads all the tables except the monsters table
+<br><br><br><b>relog</b>
+<br>
+<br>再ログインする
+<br><br><hr>
+<a name="Cha"><br><br><br><br><font size="5"><b>Chat Commands</b></font>
+<br>
+<br>全てのチャットコマンドは許可が必要.  <a href="#ConCM">コンソール</a>と <a href="#ChaCM">チャット関連</a> を見ること. 
+<br>
+<br>チャットコマンドを利用して操作ができる.
+<br>
+<br><i>kore, go back to town</i>
+<br>
+<br><i>sit down kore</i>
+<br>
+<br>As long as the callsign is in there and a keyword followed by any variables, the Chat Command will work.  The callsign is not needed if you issue the Chat Command through Private or Party Chat.
+<br>
+<br>All Chat Commands (including the callsign) are not case sensitive.
+<a name="ChaA"><br><br><br><font size="4"><b>Actions</b></font>
+<br><br><br><b>(callsign) follow [(partial username | "me")]</b>
+<br>
+<br>BOTが <i>partial username</i>のプレイヤーを追尾する.  もし<i>partial username</i>が指定されなければBOTは呼んだ人を追尾する(="me")
+<br><br><br><b>(callsign) follow stop</b>
+<br>
+<br>BOTに追尾終了を伝える
+<br><br><br><b>(callsign) look (body dir) [(head dir)]</b>
+<br>
+<br><i>body dir</i> - 0-7を指定. 0 (北), 2 (西), 4 (南), 6 (東) 
+<br>
+<br><i>head dir</i> - 0-2を指定. 0 (正面), 1 (右), 2 (左) 
+<br>
+<br>指定方向を向く. もし<i>head dir</i>を指定しなければ, 頭は体と同じ方向を向く
+<br><br><br><b>(callsign) move (x) (y)</b>
+<br>
+<br>BOTを(x,y)に移動させる
+<br><br><br><b>(callsign) sit</b>
+<br>
+<br>BOTが座る
+<br><br><br><b>(callsign) stand</b>
+<br>
+<br>BOTが立ち上がる
+<br><br><br><b>(callsign) tank [(partial username | "me")]</b>
+<br>
+<br>BOTが <i>partial username</i>のために壁になる.  もし<i>partial username</i> が指定されなければBOTは呼んだ人のための壁になる
+<br><br><br><b>(callsign) tank stop</b>
+<br>
+<br>BOTに壁を終了させる
+<br><br><br><b>(callsign) town</b>
+<br>
+<br>BOTを最後のセーブポイントに帰らせる
+<br><br><br><b>thanks</b>
+<br>
+<br>Thank Kore for a job well done :) 
+<a name="ChaCM"><br><br><br><font size="4"><b>Configuration Modification</b></font>
+<br><br><br><b>(auth password)</b> --must be private messaged to Kore
+<br>
+<br><i>auth password</i> - The authorization password as specified in config.txt
+<br>
+<br>Toggles authorization to caller for use of Kore through Chat Commands.
+<br><br><br><b>(callsign) conf (variable) [(value)]</b>
+<br>
+<br><i>variable</i> - A variable from the config.txt file
+<br>
+<br>Sets the config <i>variable</i> to <i>value</i> and rewrites config.txt.  If no <i>value</i> is specified th
+en the value of <i>variable</i> will be displayed
+<br><br><br><b>(callsign) timeout (type) (seconds)</b>
+<br>
+<br><i>type</i> - the exact name from the Timeout Table (in the Control directory)
+<br>
+<br><i>seconds</i> - number of seconds, a possibly fractional value (ie. 0.5)
+<br>
+<br>Sets the specified timeout to <i>seconds</i> and rewrites timeouts.txt. If no <i>value</i> is specified th
+en the value of <i>type</i> will be displayed
+<a name="ChaPW"><br><br><br><font size="4"><b>Party Warper Mode</b></font>
+<br>
+<br>You can sort of play with the all the 'gate' commands and put the words in any order, separated by anything.  Like you can say "damn, setup that freaking gate" and Kore will prime the portal.  You can also yell like "GAAAATE OOOOOPEN!" and Kore will open a portal.  Looks very cool to have a portal suddenly appear and you're a Swordsman.  Of course, it <i>used</i> to look cool, now everyone will know you're cheating :)
+<br>
+<br>Warp portals could be made without any blue gems, and without use of SP.  SP is only needed everytime you move the portal coordinates.
+<br><br><br><b>(party warper password)</b> --must be sent in a private message
+<br>
+<br><i>party warper password</i> - Party Warper Password as specified in config.txt
+<br>
+<br>Toggles Portal Authorization to caller.  Those with authorization can perform all Portal related functions through Chat Commands
+<br><br><br><b>(callsign) close gate</b>
+<br>
+<br>Closes a perpetual portal
+<br><br><br><b>(callsign) heal [(partial username | "me")] (hp amount)</b>
+<br>
+<br>Kore will attempt to heal a Player in the area whose username contains <i>partial username</i>.  Kore will heal as much as possible until its healed <i>hp amount</i>.  If no <i>partial username</i> is specified then Kore will heal the caller
+<br><br><br><b>(callsign) (keep | leave) gate open</b>
+<br>
+<br>Opens a perpetual portal (Warp Portal is cast every 20 seconds to keep it open).  
+<br><br><br><b>(callsign) list gate</b>
+<br>
+<br>List the maps Kore has in its slots specified in <i>config.txt</i>.
+<br><br><br><b>(callsign) open gate</b>
+<br>
+<br>Opens the portal.
+<br><br><br><b>(callsign) portal auth (on | enable | disable | off)</b>
+<br>
+<br>Toggles Portal Authorization.  When off - anyone can tell Kore to open a portal. (same as 'conf partyWarperAuthorization 1/0')
+<br><br><br><b>(callsign) setup gate [(x) (y)]</b>
+<br>
+<br>Sets up and primes the Portal at coordinates (<i>x</i>, <i>y</i>).  Portal can be opened anywhere on the map.  If no coordinates are specified then it 'primes' the Portal at the last setup coordinates.  The Portal must be primed before opening every time Kore logs in.  This priming takes SP, but after the initial prime just keep calling either <b>switch gate</b> or <b>open gate</b>.
+<br><br><br><b>(callsign) switch gate (partial map name)</b>
+<br>
+<br>Switches the portal to open to another map.  The <i>partyWarper_slot_#</i> values in the config file are looked up in maps.txt.  If <i>partial map name</i> is found in a slot's full map name, then that slot is selected for the next portal.
+<br>
+<br>Ex. <i>switch gate pyramids</i>
+<br>
+<br>Kore would look through his warp slots for a map whose full name contains <i>pyramids</i>
+<br><br><br><b>(callsign) where gate</b>
+<br>
+<br>Kore spits out the coordinates and status of the portal.
+<a name="ChaSF"><br><br><br><font size="4"><b>System Functions</b></font>
+<br><br><br><b>(callsign) date</b>
+<br>
+<br>Kore will spit out the date in your local time
+<br><br><br><b>(callsign) logout</b>
+<br>
+<br>Causes Kore to quit
+<br><br><br><b>(callsign) reload (partial name | "all") ["except" (partial name)] </b>
+<br>
+<br>Reloads all configuration/table files that match <i>partial name</i>, and if specified, excludes any files that match <i>partial name</i> after <i>except</i>
+<br><br><br><b>(callsign) relog</b>
+<br>
+<br>Reconnects to Master Server, and logs in
+<br><br><br><b>(callsign) shut up</b>
+<br>
+<br>Disables Chat Command Responses (same as 'conf verbose 0')
+<br><br><br><b>(callsign) speak</b>
+<br>
+<br>Enables Chat Command Responses (same as 'conf verbose 1')
+<br><br><br><b>(callsign) status</b>
+<br>
+<br>Kore will spit out details about its status, like HP/SP/EXP.
+<hr>
+<a name="Conf"><br><br><br><br><font size="5"><b>Config.txt</b></font>
+<br><br><br><b>adminPassword (password)</b>
+<br>
+<br>パスワードはリモート操作の許可に必要. ラグナロクユーザはこのパスワードをＢＯＴに耳打ちで送るとチャットを通してＢＯＴをリモート操作できるようになる
+<br><br><br><b>attackAuto (flag)</b>
+<br>
+<br>全てのモンスターに攻撃する
+<br><br><br><b>attackAuto_sit (percentage)</b>
+<br>
+<br><i>percentage</i> - 割合を指定. '%'はいらない
+<br>
+<br>もしBOTのHPが<i>percentage</i>まで減ったら戦闘中で無ければBOTは座る.
+ あなたはいつでもBOTを立ち上がらせる(stand)ことができる.
+<br><br><br><b>attackAuto_teleport_hp (percentage)</b>
+<br>
+<br><i>percentage</i> - 割合を指定. '%'はいらない
+<br>
+<br>BOTのHPが<i>percentage</i>以下の間、繰り返し同マップ内をランダムテレポートする
+<br><br><br><b>attackAuto_teleport_idle (flag)</b>
+<br>
+<br>BOTが一定時間何もしなかったらテレポートするか否かを切り替える. デフォルトでは12秒. この時間は<i>timeouts.txt</i>の中の<i>ai_teleport_idle</i>で設定できる.
+<br><br><br><b>attackAuto_teleport_portal (flag)</b>
+<br>
+<br>BOTはマップ切り替え地点が見えたらマップ移動を防止するためにテレポートする
+<br><br><br><b>attackAutoParty (flag)</b>
+<br>
+<br>パーティメンバーが攻撃しているパーティに自動攻撃する
+<br><br><br><b>attackDistance (number)</b>
+<br>
+<br><i>number</i> - ブロック数
+<br>
+<br>モンスターからの距離の指定. BOTはこの距離まで近づいてから攻撃を開始する
+<br><br><br><b>callsign (name)</b>
+<br>
+<br>このコールサインはオープンチャットでのチャットコマンドを使うときに必須である(パーティチャットと耳打ちでは必要ではない). The callsign is not case sensitive(
+コールサインは反応しない場合がある？)
+<br>
+<br>Ex. <i>"kore, sit"</i> - BOTを座らせることができる
+<br><br><Br><b>char [(number)]</b>
+<br>
+<Br><i>number</i> - あなたの最初のキャラクタは 0, 2番目は 1, 3番目は 2, etc.
+<br>
+<br>キャラクターをログインさせる. あなたは3人選ぶことができる. もしあなたが何も選んでいなかったら入力を促される.
+<br><br><Br><b>dealAutoCancel (flag)</b>
+<br>
+<br>取引要請を自動キャンセルするか否かを切り替える. もし(1)なら15秒でキャンセルする.
+<br><br><br><b>debug (level)</b>
+<br>
+<Br><i>level</i> - 0 (off), 1 (low), 2 (high)
+<br>
+<br>Toggles debug verbosity(デバッグモードに切り替える？）
+<br><br><Br><b>follow (flag)</b>
+<br>
+<br>自動プレイヤー追尾(援護)を切り替える. もしonならBOTは選択したプレイヤーを追尾するだろう
+<br><br><Br><b>followDistanceMax (number)</b>
+<br>
+<br><i>number</i> - number of blocks
+<br>
+<br>BOTは追尾ターゲットから<i>number</i>ブロックより離れないようにする
+<br><br><Br><b>followDistanceMin (number)</b>
+<br>
+<br><i>number</i> - number of blocks
+<br>
+<br>BOTは追尾ターゲットに<i>number</i>以上近づかない
+<br><br><br><b>followExclusive (flag)</b>
+<br>
+<br>BOTは他のパーティメンバーを無視して、追尾ターゲットを助けるだろう. 追尾ターゲットは援護を受けるためにBOTと同じパーティに入っておくことに注意する.
+<br><br><br><b>followLostStep (number)</b>
+<br>
+<br><i>number</i> - number of blocks
+<br>
+<br>もしターゲットを見失ったら,BOTはターゲットを最後に捕捉した場所に向かう. デフォルトではBOTは毎秒から10秒間隔で<i>number</i>ブロック移動するだろう. これは変えるべきではない.
+<br><br><br><b>followSitAuto (flag)</b>
+<br>
+<br>追尾ターゲットがsit/standしたらBOTもsit/standするか切り替える
+<br><br><br><b>followTarget (username)</b>
+<br>
+<br>BOTはもし<b>follow</b>が可能ならこのユーザを追尾（援護）する
+<br><br><br><b>healSelf_skill (percentage)</b>
+<br>
+<br><i>percentage</i> - 割合の指定. '%'はいらない.
+<br>
+<br>もしBOTがアコライトならBOTはHPが<i>percentage</i>以下になったら最大レベルのヒールを自分にかける
+<br><br><br><b>healSelf_item_# (full item name)</b>
+<br><b>healSelf_item_#_hp (percentage)</b>
+<br>
+<br>BOTはHPが<i>percentage</i>以下になったら<i>full item name</i>とマッチする所持アイテムを使う. <i>#</i>は数字に置き換える、0から始まり1,2など. あなたは望む数だけのアイテムを持てる. <i>config.txt</i>の中の例を見なさい.
+<br><br><br><b>itemsGatherAuto (flag)</b>
+<br>
+<br>あいてむ自動拾いを設定する. もしONなら、BOTは周りにプレイヤーがいない状態ならアイテムを拾うだろう. これはスマートだ。ルートにはならない。
+<br><br><br><b>itemsTakeAuto (flag)</b>
+<br>
+<br>モンスターを殺した後自動的にアイテムを拾う設定をする. BOTは何秒かだけ敵を倒した周辺のアイテムを拾おうとする.
+<br><br><br><b>local_host (name or IP)</b>
+<br>
+<br>The input socket server will be created at this ip. The socket is needed for IPC (inter-process communication) between the input thread and main thread.  You shouldn't need to change the default value
+<br><br><br><b>local_port (port)</b>
+<br>
+<br>The input socket server will be created on this port.
+<br><br><br><b>master_host (name or IP)</b>
+<br>
+<br>This server contains the list for Beta 2 character servers.  The default is currently the Korean Beta 2 master server
+<br><br><br><b>master_port (port)</b>
+<br>
+<br>The port for the master server
+<br><br><br><b>message_length_max (number)</b>
+<br>
+<br><i>number</i> - メッセージの文字数
+<br>
+<br>全てのチャットメッセージは<i>message_length_max</i>ごとに分割される
+<br><br><br><b>partyAutoDeny (flag)</b>
+<br>
+<br>パーティ加入要請を自動キャンセルするよう設定する.  もしON(1)なら, 要請がきてから15秒でキャンセルするだろう
+<br><br><br><b>partyWarper (flag)</b>
+<br>
+<br>Party warper modeを許可する. もしBOTがポータルを開けるアコライトならパーティメンバーのためにポータルを開くことができる. 
+<br><br><br><b>partyWarperAuthorization (flag)</b>
+<br>
+<br>ポータル許可を切り替える. オフの時は誰でもBOTに対してポータルを開く命令を出せる
+<br><br><br><b>partyWarperPassword (password)</b>
+<br>
+<br>ユーザは耳打ちでBOTに対してワープ許可を得るためにパスワードを送ることができる. これらのワープ許可はBOTのワープコマンドを全て使うことができる
+<br><br><br><b>partyWarper_portalX (x coord)</b>
+<br>
+<br>ポータルを開くX座標を指定
+<br><br><br><b>partyWarper_portalY (y coord)</b>
+<br>
+<br>ポータルを開くY座標を指定
+<br><br><br><b>partyWarper_slot_# (map name)</b>
+<br>
+<br>あなたのアコライトでワープしたい場所のマップ名(<i>maps.txt</i>に従って)をこのスロットに入れなさい.　あなたはメモにかまわずどんな場所にでもワープできる。　チャットコマンド "list gate" と "switch gate"を使い, 許可された友達はポータルをどこに開くか選ぶことができる. <i>#</i>を0から始まる数字に置き換えなさい. あなたは望むだけのスロットを登録できる.(激しく誤訳かも）
+Fill these slots with the map names (from <i>maps.txt</i>) where you want to warp with your Acolyte.  You can warp to any map you want, regardless of memos.  Using the Chat Command "list gate" and "switch gate", authorized friends can choose where the portal will open up to.  Replace <i>#</i> with a number starting from 0.  You can have as many slots as you want.
+<br>
+<br>Ex. <i>partyWarper_slot_0 izlude.rsw</i>
+<br><br><br><b>partyWarper_slot_current (slot #)</b>
+<br>
+<br><i>slot #</i> - 数字は0-2を含む。config.txtの中の<i>partyWarper_slot_#</i>に相当する.次にポータルを開くスロットが選択されている.（激しく誤訳かも）number from 0-2 inclusive, representing a <i>partyWarper_slot_#</i> in the config.txt
+<br>
+<br>The slot selected for the next portal opening.
+<br><br><br><b>password [(password)]</b>
+<br>
+<br>Ragnarokにログインするパスワード
+<br><br><br><b>server [(number)]</b>
+<br>
+<br><i>number</i> - キャラクターセレクトサーバの数字
+<br>
+<br>The server your characters are located on.  If no <i>number</i> is specified then you will be promped at run-time to choose a server from the server list
+<br><br><br><b>sex [(flag)]</b>
+<br>
+<br><i>flag</i> - 0 (Girl), 1 (Boy)
+<br>
+<br>When logging in you can force your sex to be <i>flag</i>.  This is an exploit.  You can leave this empty to login as the default sex for your account
+<br><br><br><b>sitAuto_sp (percentage)</b>
+<br>
+<br>BOTはSPが<i>percentage</i>以下の時に座る
+<br><br><br><b>sleepTime (microseconds)</b>
+<br>
+<br>Kore will sleep for <i>microseconds</i> every program cycle to conserve CPU cycles.  あなたはこれを変える必要はない.
+<br><br><Br><b>tankMode (flag)</b>
+<br>
+<br>Tank Mode（壁モード）を設定する.  もし<b>tankModeTarget</b>がBOTの視界に入っていたら,BOTはモンスターを一度叩く. callerがモンスターを倒すまでBOTは何もせず壁になる.
+<br><br><Br><b>tankModeTarget (username)</b>
+<br>
+<br>BOTはtank mode(壁モード）のためにモンスターをターゲッティングする前に<i>username</i>が視界に入っているかどうかチェックするだろう
+<br><br><br><b>username (username)</b>
+<br>
+<br>Ragnarokにログインするためのユーザネーム
+<br><br><br><b>verbose (flag)</b>
+<br>
+<br>BOTがチャットコマンドに返事を返すか設定する
+<br><br><br><b>version (number)</b>
+<br>
+<br>Ragnarokのバージョンはあなたのクライアントのバージョンがアップデートされているか内部での確認のために使われている.　もしあなたのゲットしたバージョンがログインサーバにつなぐときにエラーを起こすならば,この数字を1増やしてみなさい.
+<hr>
+<a name="Resp"><br><br><br><br><font size="5"><b>Responses.txt</b></font>
+<a name="RespO"><br><br><br><font size="4"><b>Overview</b></font>
+<br><br><br>This file controls how Kore responds to Chat Commands.  Currently, Chat Commands are predefined - you can't make Kore respond to your own phrases like "Kore, EAT!".
+<br>
+<br>Chat Commands can either succeed or fail, and there are different ways of succeeding and failing. The succeed response tags have an appended 'S', and possibly a number.  The failing response tags have an appended 'F' and possibly a number:
+<br>
+<Br><i>commandS1 "Succeed text"</i>
+<br>
+<br>If you specify two or more of the same response tags, a random response will be chosen from the group:
+<br>
+<br><i>somethingF1 "Sorry, you suck"</i>
+<br><i>somethingF1 "You really do suck"</i>
+<br>
+<br>There are also variables at your disposal.  What variables are available depends on the response.  There are global variables available that can be used in any response.
+<br>
+<br>To use a variable in a response , prepend the variable with "%$":
+<br>
+<br><i>standS "Whatever you say %$user"</i>
+<br>
+<br>To get an idea of what variables you can use in a response, look at the default Responses.txt provided.
+<a name="RespGV"><br><br><br><font size="4"><b>Global Variables</b></font>
+<br><br><br><i>user</i> - The name of the user you're responding to
+<br>
+<br>Only one global variable is available at the moment.
+<hr>
+<a name="AS"><br><br><br><br><font size="5"><b>Autosell.txt</b></font>
+<br><br><br>This file controls which items to auto-sell, as it's possible that Kore could go overweight.
+<br><br>Syntax: <b>(full item name) (number)</b>
+<br>
+<br>If <i>number</i> is 0, the item won't be sold.  If <i>number</i> is positive, Kore will keep (<i>number</i> - 1) in its inventory.  Items not found in this file will default to 0.
+<br>
+<br>Ex. <i>Red Herb 1</i>
+<br>
+<br>Kore will auto-sell every Red Herb it finds
+<br>
+<br>Ex. <i>Red Potion 50</i>
+<br>
+<br>Kore will keep at most 49 Red Potions in its inventory, and sell any excess Red Potions.
+</font>
+</td></tr></table>
+<br>
+<center><font class="copyright">Copyright ｩ 2002 <a class="copyright" href="http://ro.l33t.ca">Kore</a> </font></center>
+</body></html>
+

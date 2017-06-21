@@ -1,0 +1,3 @@
+double ダブル
+triple トリプル
+quadruple クワドロプル

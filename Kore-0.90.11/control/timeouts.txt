@@ -1,0 +1,54 @@
+#You shouldn't need to modify these variables
+#If you want to really mess up the bot, go ahead :)
+# これらの変数を変更する必要はない。
+# もし本当にBOTをめちゃくちゃにしたいのならさぁどうぞ :)
+
+master 10
+gamelogin 10
+charlogin 10
+maplogin 10
+play 40
+
+ai 2
+ai_move_giveup 4
+ai_attack 1
+ai_attack_auto 1
+ai_attack_giveup 12
+ai_items_take_start 1
+ai_items_take_end 2
+ai_take 1
+ai_take_giveup 4
+ai_items_gather_giveup 6
+ai_items_gather_auto 1
+ai_items_gather_start 1
+ai_follow_lost_end 10
+ai_getInfo 1
+ai_sync 12
+ai_thanks_set 8
+ai_dealAutoCancel 5
+ai_partyAutoDeny 3
+ai_dead_respawn 4
+ai_wipe_old 200
+ai_wipe_check 30
+ai_sit 4
+ai_sit_idle 10
+ai_skill_use_giveup 2
+ai_item_use_auto 2
+ai_teleport_away 3
+ai_teleport_search 4
+ai_teleport_idle 12
+ai_teleport_portal 2
+ai_teleport_hp 3
+ai_teleport_safe_force 120
+ai_route_npcTalk 2
+ai_route_calcRoute 1
+ai_route_calcRoute_cont 0.2
+ai_buyAuto 5
+ai_buyAuto_giveup 15
+ai_buyAuto_wait 2
+ai_buyAuto_wait_buy 5
+ai_sellAuto 2
+ai_sellAuto_giveup 15
+compilePortals_auto 10
+pw_setup2 5
+pw_open 20

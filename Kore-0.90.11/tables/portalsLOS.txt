@@ -1,0 +1,321 @@
+prontera 22 203 prontera 45 346 1 prontera 289 203 1 prontera 179 184 1 prontera 237 317 1 prontera 133 183 1 prontera 107 215 1 prontera 177 221 1 prontera 132 222 1
+prt_castle 102 140 prt_castle 31 113 0 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 1 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 1 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+prt_fild07 13 64 prt_fild07 383 239 1 prt_fild07 248 376 1 prt_fild07 206 12 1 prt_fild07 17 145 1 prt_fild07 14 289 1 prt_fild07 132 381 1
+prt_castle 31 113 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+gef_fild04 187 39 gef_fild04 261 362 1 gef_fild04 16 309 1 gef_fild04 362 322 1
+moc_fild08 16 207 moc_fild08 170 383 1 moc_fild08 383 211 1 moc_fild08 204 16 1
+moc_fild06 207 18 moc_fild06 18 198 1
+mjolnir_03 242 204 mjolnir_03 212 17 1
+prt_fild09 87 380 prt_fild09 224 380 1 prt_fild09 383 223 1 prt_fild09 246 16 1 prt_fild09 95 16 1 prt_fild09 14 139 1
+moc_fild16 16 179 moc_fild16 206 298 0 moc_fild16 334 382 1 moc_fild16 125 383 1
+prt_fild04 160 387 prt_fild04 384 155 0 prt_fild04 378 72 0 prt_fild04 384 334 1 prt_fild04 17 114 0 prt_fild04 323 387 1
+prontera 156 22 prontera 22 203 1 prontera 289 203 1 prontera 237 317 1 prontera 179 184 1 prontera 107 215 1 prontera 204 192 1 prontera 156 360 1 prontera 45 346 1 prontera 133 183 1 prontera 132 222 1 prontera 177 221 1
+prt_fild01 199 24 prt_fild01 136 373 1 prt_fild01 261 373 1 prt_fild01 382 351 1 prt_fild01 382 304 1 prt_fild01 66 373 1
+prontera 107 215 prontera 204 192 1 prontera 156 360 1 prontera 45 346 1 prontera 133 183 1 prontera 132 222 1 prontera 177 221 1
+mjolnir_07 383 233 mjolnir_07 214 383 1 mjolnir_07 156 16 1 mjolnir_07 16 377 1 mjolnir_07 17 77 1
+prt_castle 121 29 prt_castle 164 145 0 prt_castle 102 88 0
+geffen 61 180 geffen 138 138 1 geffen 43 85 1 geffen 26 119 1 geffen 120 114 1
+prt_sewb2 19 175 prt_sewb2 140 24 0 prt_sewb2 19 12 1 prt_sewb2 60 24 0
+prt_castle 149 113 prt_castle 54 113 0 prt_castle 176 121 0 prt_castle 82 29 0 prt_castle 68 153 0 prt_castle 28 121 0 prt_castle 102 140 0 prt_castle 31 113 0 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 1 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+pay_fild01 13 152 pay_fild01 353 14 1 pay_fild01 379 201 1 pay_fild01 278 14 1 pay_fild01 333 361 1
+moc_fild10 19 207 moc_fild10 189 23 1 moc_fild10 208 298 1
+moc_fild10 384 258 moc_fild10 19 207 1 moc_fild10 189 23 1 moc_fild10 208 298 1
+moc_fild11 26 161 moc_fild11 189 363 1 moc_fild11 212 29 1
+prt_castle 176 121 prt_castle 82 29 0 prt_castle 68 153 0 prt_castle 28 121 0 prt_castle 102 140 0 prt_castle 31 113 0 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 1 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+pay_fild02 83 386 pay_fild02 284 108 1
+moc_fild09 30 162 moc_fild09 126 20 1 moc_fild09 267 371 1 moc_fild09 374 195 1 moc_fild09 80 369 1
+gef_fild03 18 52 gef_fild03 382 77 1 gef_fild03 312 16 1 gef_fild03 382 277 1
+geffen 98 141 geffen 61 180 1 geffen 138 138 1 geffen 43 85 1 geffen 26 119 1 geffen 120 114 1
+mjolnir_08 159 373 mjolnir_08 29 346 1 mjolnir_08 369 257 1 mjolnir_08 30 234 1
+prt_castle 102 16 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 1 prt_castle 121 29 1 prt_castle 164 145 0 prt_castle 102 88 0
+morocc 284 170 morocc 302 207 1 morocc 26 297 1 morocc 24 164 1 morocc 46 46 1
+gef_fild04 261 362 gef_fild04 16 309 1 gef_fild04 362 322 1
+moc_fild11 189 363 moc_fild11 212 29 1
+moc_fild01 321 16 moc_fild01 56 384 1 moc_fild01 379 162 1 moc_fild01 22 242 1 moc_fild01 68 16 1
+mjolnir_05 220 382 mjolnir_05 235 16 1
+moc_fild19 98 99 moc_fild19 169 107 1
+prt_fild01 136 373 prt_fild01 261 373 1 prt_fild01 382 351 1 prt_fild01 66 373 1
+prt_fild01 261 373 prt_fild01 382 351 1 prt_fild01 66 373 1
+moc_fild05 18 154 moc_fild05 378 208 1 moc_fild05 325 382 1 moc_fild05 384 126 1 moc_fild05 144 375 1 moc_fild05 268 18 1 moc_fild05 82 16 1 moc_fild05 18 136 1
+mjolnir_10 66 15 mjolnir_10 265 13 1
+gef_fild09 225 25 gef_fild09 368 95 1
+gef_fild02 16 275 gef_fild02 380 68 1 gef_fild02 14 78 1 gef_fild02 380 289 1
+mjolnir_02 79 365 mjolnir_02 326 289 1
+prt_in 82 65 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+mjolnir_07 156 16 mjolnir_07 16 377 1 mjolnir_07 17 77 1
+prontera 289 203 prontera 204 192 1 prontera 156 360 1 prontera 45 346 1 prontera 237 317 1 prontera 179 184 1 prontera 133 183 1 prontera 107 215 1 prontera 132 222 1 prontera 177 221 1
+moc_ruins 161 40 moc_ruins 54 161 1
+prt_fild07 385 186 prt_fild07 13 64 1 prt_fild07 14 289 1 prt_fild07 132 381 1
+izlude_in 74 158 izlude_in 172 158 0 izlude_in 171 97 0 izlude_in 148 127 0 izlude_in 172 139 0 izlude_in 116 46 0 izlude_in 172 116 0
+moc_fild01 56 384 moc_fild01 379 162 1 moc_fild01 22 242 1 moc_fild01 68 16 1
+moc_fild05 384 126 moc_fild05 18 136 1
+prt_fild08 233 16 prt_fild08 16 187 1 prt_fild08 16 239 1 prt_fild08 371 212 1
+gef_fild07 18 191 gef_fild07 339 187 1 gef_fild07 64 363 1
+prt_fild06 23 193 prt_fild06 277 320 1
+prt_fild09 95 16 prt_fild09 14 139 1
+mjolnir_09 300 28 mjolnir_09 30 249 1 mjolnir_09 373 288 1 mjolnir_09 194 367 1 mjolnir_09 106 28 1
+pay_fild01 278 14 pay_fild01 333 361 1
+gef_tower 52 135 gef_tower 158 104 0 gef_tower 153 28 0 gef_tower 158 128 0 gef_tower 156 93 0 gef_tower 52 181 1 gef_tower 158 174 0 gef_tower 158 150 0
+gef_fild06 18 304 gef_fild06 382 211 1
+moc_fild04 336 381 moc_fild04 92 381 1 moc_fild04 14 122 1 moc_fild04 314 381 1
+prt_fild07 17 145 prt_fild07 14 289 1 prt_fild07 132 381 1 prt_fild07 385 186 1
+gef_fild05 364 309 gef_fild05 64 15 1
+gef_fild07 339 187 gef_fild07 64 363 1
+moc_fild04 175 18 moc_fild04 258 253 1 moc_fild04 336 381 1 moc_fild04 92 381 1 moc_fild04 14 122 1 moc_fild04 314 381 1
+gef_fild11 377 293 gef_fild11 111 364 0
+pay_dun00 21 186 pay_dun00 184 33 1
+prt_fild09 383 223 prt_fild09 246 16 1 prt_fild09 95 16 1 prt_fild09 14 139 1
+prt_sewb2 19 12 prt_sewb2 60 24 0
+prontera 179 184 prontera 204 192 1 prontera 156 360 1 prontera 45 346 1 prontera 133 183 1 prontera 107 215 1 prontera 132 222 1 prontera 177 221 1
+gef_tower 153 28 gef_tower 158 128 0 gef_tower 156 93 1 gef_tower 52 181 0 gef_tower 158 174 0 gef_tower 158 150 0
+mjolnir_07 214 383 mjolnir_07 156 16 1 mjolnir_07 16 377 1 mjolnir_07 17 77 1
+moc_fild02 67 342 moc_fild02 228 29 0 moc_fild02 350 339 0 moc_fild02 332 19 0
+moc_ruins 71 16 moc_ruins 157 37 1 moc_ruins 161 40 1 moc_ruins 54 161 1
+prt_fild00 317 18 prt_fild00 18 129 1 prt_fild00 383 249 1 prt_fild00 165 18 1 prt_fild00 159 383 1
+pay_fild09 112 16 pay_fild09 16 91 1
+prt_fild07 248 376 prt_fild07 206 12 1 prt_fild07 17 145 1 prt_fild07 14 289 1 prt_fild07 132 381 1 prt_fild07 385 186 1
+prontera 45 346 prontera 133 183 1 prontera 132 222 1 prontera 177 221 1
+prt_castle 102 181 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+pay_fild04 194 17 pay_fild04 17 165 1
+iz_dun02 236 198 iz_dun02 339 331 1
+moc_fild16 206 298 moc_fild16 334 382 0 moc_fild16 125 383 0
+prt_castle 92 107 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 75 107 0 prt_castle 102 88 1
+payon_in02 61 33 payon_in02 70 33 0 payon_in02 82 45 0
+prt_castle 75 107 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+prt_in 240 141 prt_in 37 65 0 prt_in 256 131 1 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+gef_fild06 218 17 gef_fild06 18 304 1 gef_fild06 382 211 1
+morocc 302 207 morocc 26 297 1 morocc 24 164 1 morocc 46 46 1
+moc_fild16 334 382 moc_fild16 125 383 1
+moc_fild09 126 20 moc_fild09 374 195 1 moc_fild09 267 371 1 moc_fild09 80 369 1
+prt_fild05 134 14 prt_fild05 373 205 1
+prt_fild01 380 243 prt_fild01 20 292 1 prt_fild01 199 24 1 prt_fild01 261 373 1 prt_fild01 136 373 1 prt_fild01 382 351 1 prt_fild01 382 304 1 prt_fild01 66 373 1
+mjolnir_01 381 256 mjolnir_01 284 18 1
+mjolnir_06 366 383 mjolnir_06 18 331 1 mjolnir_06 382 377 1 mjolnir_06 383 74 1 mjolnir_06 265 29 1
+moc_fild01 22 242 moc_fild01 68 16 1
+prt_fild11 17 281 prt_fild11 302 301 1 prt_fild11 362 111 1
+gef_fild05 15 201 gef_fild05 364 309 1 gef_fild05 64 15 1
+prt_fild02 173 382 prt_fild02 17 350 1
+prt_castle 130 107 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 102 16 0 prt_castle 172 113 0 prt_castle 102 88 0
+prt_castle 170 138 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 1 prt_castle 135 153 0 prt_castle 102 16 0 prt_castle 172 113 0 prt_castle 102 88 0
+prt_castle 113 107 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 1 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 1
+gef_fild02 14 78 gef_fild02 380 289 1
+prt_fild05 13 63 prt_fild05 14 141 1 prt_fild05 255 14 1 prt_fild05 292 385 1 prt_fild05 15 333 1 prt_fild05 134 14 1 prt_fild05 373 205 1
+prt_fild00 18 129 prt_fild00 383 249 1 prt_fild00 165 18 1 prt_fild00 159 383 1
+gef_tower 158 104 gef_tower 153 28 0 gef_tower 158 128 1 gef_tower 156 93 0 gef_tower 52 181 0 gef_tower 158 174 0 gef_tower 158 150 0
+prt_fild08 55 21 prt_fild08 170 378 0 prt_fild08 233 16 0 prt_fild08 16 187 0 prt_fild08 16 239 0 prt_fild08 371 212 0
+geffen 217 119 geffen 98 141 1 geffen 61 180 1 geffen 138 138 1 geffen 43 85 1 geffen 26 119 1 geffen 120 114 1
+izlude 30 78 izlude 198 180 1 izlude 109 151 1 izlude 216 129 1 izlude 148 148 1
+prt_sewb2 140 24 prt_sewb2 19 12 0 prt_sewb2 60 24 0
+mjolnir_11 174 20 mjolnir_11 20 220 1
+prt_fild02 305 17 prt_fild02 17 242 1 prt_fild02 173 382 1 prt_fild02 17 350 1
+moc_fild15 348 18 moc_fild15 158 363 1 moc_fild15 38 105 1 moc_fild15 367 276 1 moc_fild15 104 16 1
+pay_fild01 379 201 pay_fild01 278 14 1 pay_fild01 333 361 1
+mjolnir_10 15 258 mjolnir_10 66 15 1 mjolnir_10 265 13 1
+mjolnir_04 160 46 mjolnir_04 122 208 1
+izlude_in 148 127 izlude_in 172 139 1 izlude_in 172 116 1
+prt_church 109 81 prt_church 31 19 0 prt_church 100 56 1 prt_church 168 19 0
+moc_fild12 118 30 moc_fild12 289 168 1
+mjolnir_12 220 26 mjolnir_12 199 378 1
+gef_fild04 16 309 gef_fild04 362 322 1
+prontera 237 317 prontera 204 192 1 prontera 156 360 1 prontera 45 346 1 prontera 179 184 1 prontera 133 183 1 prontera 107 215 1 prontera 132 222 1 prontera 177 221 1
+pay_fild07 16 200 pay_fild07 164 17 1 pay_fild07 382 290 1
+pay_fild06 28 288 pay_fild06 305 375 1
+prt_fild09 224 380 prt_fild09 383 223 1 prt_fild09 246 16 1 prt_fild09 95 16 1 prt_fild09 14 139 1
+mjolnir_07 383 362 mjolnir_07 383 233 1 mjolnir_07 214 383 1 mjolnir_07 156 16 1 mjolnir_07 16 377 1 mjolnir_07 17 77 1
+prt_church 90 81 prt_church 109 81 1 prt_church 31 19 0 prt_church 100 56 1 prt_church 168 19 0
+moc_fild05 144 375 moc_fild05 378 208 1 moc_fild05 325 382 1 moc_fild05 384 126 1 moc_fild05 268 18 1 moc_fild05 82 16 1 moc_fild05 18 136 1
+mjolnir_06 383 74 mjolnir_06 265 29 1
+moc_fild02 350 339 moc_fild02 332 19 1
+moc_fild05 268 18 moc_fild05 378 208 1 moc_fild05 325 382 1 moc_fild05 384 126 1 moc_fild05 82 16 1 moc_fild05 18 136 1
+mjolnir_07 16 377 mjolnir_07 17 77 1
+pay_fild08 17 75 pay_fild08 160 16 1 pay_fild08 262 91 1
+iz_dun00 39 41 iz_dun00 352 342 1 iz_dun00 168 173 1
+moc_fild08 383 211 moc_fild08 170 383 1 moc_fild08 204 16 1
+prt_castle 172 113 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 16 0 prt_castle 102 88 0
+izlude 52 140 izlude 30 78 1 izlude 198 180 1 izlude 109 151 1 izlude 216 129 1 izlude 148 148 1
+prt_castle 144 29 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+aldebaran 138 34 aldebaran 139 135 1
+pay_fild05 127 378 pay_fild05 271 284 1
+prt_castle 40 138 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 92 107 0 prt_castle 164 145 0 prt_castle 75 107 0 prt_castle 102 88 0
+iz_dun00 352 342 iz_dun00 168 173 1
+geffen_in 70 132 geffen_in 28 106 0 geffen_in 163 94 0 geffen_in 70 149 1
+prt_fild08 16 239 prt_fild08 371 212 1
+prt_castle 102 73 prt_castle 121 29 1 prt_castle 164 145 0 prt_castle 102 88 0
+prt_fild10 20 122 prt_fild10 227 299 1 prt_fild10 20 196 1 prt_fild10 339 126 1 prt_fild10 263 20 1
+izlude 109 151 izlude 216 129 1 izlude 148 148 1
+gef_fild03 382 77 gef_fild03 312 16 1
+geffen 119 213 geffen 217 119 1 geffen 98 141 1 geffen 61 180 1 geffen 138 138 1 geffen 43 85 1 geffen 26 119 1 geffen 120 114 1
+gef_tower 158 128 gef_tower 156 93 0 gef_tower 52 181 0 gef_tower 158 174 0 gef_tower 158 150 0
+prt_fild02 17 305 prt_fild02 305 17 1 prt_fild02 17 242 1 prt_fild02 173 382 1 prt_fild02 17 350 1
+prt_fild07 84 13 prt_fild07 385 186 1 prt_fild07 13 64 1 prt_fild07 383 239 1 prt_fild07 248 376 1 prt_fild07 206 12 1 prt_fild07 17 145 1 prt_fild07 14 289 1 prt_fild07 132 381 1
+prt_fild01 382 304 prt_fild01 20 292 1 prt_fild01 261 373 1 prt_fild01 136 373 1 prt_fild01 382 351 1 prt_fild01 66 373 1
+izlude_in 172 139 izlude_in 172 116 1
+mjolnir_02 28 258 mjolnir_02 361 18 1 mjolnir_02 79 365 1 mjolnir_02 326 289 1
+mjolnir_05 16 171 mjolnir_05 220 382 1 mjolnir_05 235 16 1
+mjolnir_08 185 28 mjolnir_08 159 373 1 mjolnir_08 29 346 1 mjolnir_08 369 257 1 mjolnir_08 30 234 1
+moc_fild03 70 340 moc_fild03 17 37 1 moc_fild03 179 16 1 moc_fild03 303 170 1
+prt_fild10 339 126 prt_fild10 263 20 1
+moc_fild13 308 49 moc_fild13 146 368 1 moc_fild13 298 370 1
+moc_fild03 17 37 moc_fild03 179 16 1 moc_fild03 303 170 1
+gef_tower 52 181 gef_tower 158 174 0 gef_tower 158 150 0
+prt_fild04 384 155 prt_fild04 378 72 1 prt_fild04 384 334 0 prt_fild04 17 114 1 prt_fild04 323 387 0
+prt_castle 59 29 prt_castle 102 73 0 prt_castle 40 138 0 prt_castle 121 29 0 prt_castle 92 107 0 prt_castle 164 145 0 prt_castle 75 107 0 prt_castle 102 88 0
+moc_fild15 367 276 moc_fild15 104 16 1
+payon_in02 70 33 payon_in02 82 45 1
+prt_in 53 105 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+prt_in 69 65 prt_in 60 77 1
+prt_church 31 19 prt_church 100 56 0 prt_church 168 19 0
+prt_in 80 113 prt_in 70 162 0 prt_in 168 124 0 prt_in 240 141 0 prt_in 37 65 0 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+izlu2dun 108 83 izlu2dun 108 29 1
+mjolnir_10 384 220 mjolnir_10 15 258 1 mjolnir_10 66 15 1 mjolnir_10 265 13 1
+prt_fild02 17 242 prt_fild02 173 382 1 prt_fild02 17 350 1
+prt_castle 68 153 prt_castle 28 121 0 prt_castle 102 140 1 prt_castle 31 113 0 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 1 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 1 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+prt_castle 28 121 prt_castle 102 140 0 prt_castle 31 113 1 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+moc_fild05 82 16 moc_fild05 378 208 1 moc_fild05 325 382 1 moc_fild05 384 126 1 moc_fild05 18 136 1
+moc_fild13 29 171 moc_fild13 308 49 1 moc_fild13 146 368 1 moc_fild13 298 370 1
+gef_fild03 382 277 gef_fild03 382 77 1
+moc_fild02 71 18 moc_fild02 67 342 0 moc_fild02 228 29 1 moc_fild02 350 339 1 moc_fild02 332 19 1
+morocc_in 68 75 morocc_in 108 179 0
+pay_fild02 167 390 pay_fild02 83 386 1 pay_fild02 284 108 1
+moc_fild01 379 162 moc_fild01 22 242 1 moc_fild01 68 16 1
+prt_in 254 113 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+pay_arche 36 131 pay_arche 81 17 1
+pay_fild03 15 110 pay_fild03 392 63 1 pay_fild03 172 281 1
+izlude 198 180 izlude 109 151 1 izlude 216 129 1 izlude 148 148 1
+prt_fild03 371 255 prt_fild03 16 249 1
+izlude_in 65 84 izlude_in 74 158 0 izlude_in 172 158 0 izlude_in 171 97 0 izlude_in 172 139 0 izlude_in 148 127 0 izlude_in 172 116 0
+mjolnir_06 382 377 mjolnir_06 383 74 1 mjolnir_06 265 29 1
+prt_fild08 16 187 prt_fild08 16 239 1 prt_fild08 371 212 1
+moc_fild04 14 122 moc_fild04 314 381 1
+gef_fild08 360 187 gef_fild08 200 355 1
+moc_fild08 170 383 moc_fild08 204 16 1
+prontera 133 183 prontera 132 222 1 prontera 177 221 1
+geffen_in 28 106 geffen_in 163 94 0 geffen_in 70 149 0
+geffen_in 70 158 geffen_in 70 132 0 geffen_in 28 106 0 geffen_in 163 94 0 geffen_in 70 149 0
+moc_fild18 158 382 moc_fild18 382 305 1
+moc_fild11 379 197 moc_fild11 26 161 1 moc_fild11 189 363 1 moc_fild11 212 29 1
+morocc 26 297 morocc 24 164 1 morocc 46 46 1
+izlude_in 116 46 izlude_in 172 139 0 izlude_in 148 127 0 izlude_in 65 84 0 izlude_in 172 116 0
+moc_fild09 267 371 moc_fild09 80 369 1
+pay_fild07 280 382 pay_fild07 16 200 1 pay_fild07 164 17 1 pay_fild07 382 290 1
+prt_fild10 227 299 prt_fild10 20 196 1 prt_fild10 339 126 1 prt_fild10 263 20 1
+izlude_in 172 158 izlude_in 171 97 0 izlude_in 148 127 0 izlude_in 172 139 0 izlude_in 116 46 0 izlude_in 172 116 0
+prt_fild01 20 292 prt_fild01 199 24 1 prt_fild01 136 373 1 prt_fild01 261 373 1 prt_fild01 382 351 1 prt_fild01 66 373 1
+moc_fild10 189 23 moc_fild10 208 298 1
+gef_fild02 266 18 gef_fild02 16 275 1 gef_fild02 380 68 1 gef_fild02 14 78 1 gef_fild02 380 289 1
+prt_fild07 206 12 prt_fild07 17 145 1 prt_fild07 14 289 1 prt_fild07 132 381 1 prt_fild07 385 186 1
+gef_fild03 312 16 gef_fild03 382 277 1
+pay_fild11 38 330 pay_fild11 297 135 1
+gef_fild10 63 337 gef_fild10 136 331 1 gef_fild10 104 21 1 gef_fild10 251 371 1 gef_fild10 370 56 1 gef_fild10 223 205 1
+moc_fild04 258 253 moc_fild04 336 381 1 moc_fild04 14 122 1 moc_fild04 92 381 1 moc_fild04 314 381 1
+gef_fild10 136 331 gef_fild10 104 21 1 gef_fild10 251 371 1 gef_fild10 370 56 1 gef_fild10 223 205 1
+in_orcs01 124 171 in_orcs01 30 154 0 in_orcs01 108 86 0
+morocc 160 297 morocc 284 170 1 morocc 302 207 1 morocc 26 297 1 morocc 24 164 1 morocc 46 46 1
+prontera 156 360 prontera 22 203 1 prontera 45 346 1 prontera 133 183 1 prontera 132 222 1 prontera 177 221 1
+mjolnir_06 18 331 mjolnir_06 382 377 1 mjolnir_06 383 74 1 mjolnir_06 265 29 1
+gef_fild00 381 137 gef_fild00 40 199 1
+pay_fild07 164 17 pay_fild07 382 290 1
+moc_fild02 228 29 moc_fild02 350 339 1 moc_fild02 332 19 1
+mjolnir_09 30 249 mjolnir_09 106 28 1 mjolnir_09 194 367 1
+izlude 216 129 izlude 148 148 1
+morocc_in 44 146 morocc_in 68 75 0 morocc_in 108 179 0
+moc_fild14 16 278 moc_fild14 196 382 1
+moc_fild15 158 363 moc_fild15 38 105 1 moc_fild15 367 276 1 moc_fild15 104 16 1
+alberta 15 234 alberta 98 153 1
+prt_castle 45 145 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 1 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+gef_fild02 380 156 gef_fild02 266 18 1 gef_fild02 16 275 1 gef_fild02 380 68 1 gef_fild02 14 78 1 gef_fild02 380 289 1
+geffen 138 138 geffen 43 85 1 geffen 26 119 1 geffen 120 114 1
+moc_fild06 377 316 moc_fild06 207 18 1 moc_fild06 18 198 1
+gef_fild01 16 102 gef_fild01 69 17 1 gef_fild01 382 111 1
+gef_fild01 69 17 gef_fild01 382 111 1
+moc_fild04 92 381 moc_fild04 14 122 1 moc_fild04 314 381 1
+mjolnir_10 235 381 mjolnir_10 15 258 1 mjolnir_10 384 220 1 mjolnir_10 66 15 1 mjolnir_10 265 13 1
+prt_fild05 15 333 prt_fild05 134 14 1 prt_fild05 373 205 1
+prt_fild09 246 16 prt_fild09 95 16 1 prt_fild09 14 139 1
+prt_fild05 292 385 prt_fild05 15 333 1 prt_fild05 134 14 1 prt_fild05 373 205 1
+prt_sewb1 135 248 prt_sewb1 188 247 1
+prt_fild11 302 301 prt_fild11 362 111 1
+prt_castle 82 29 prt_castle 68 153 0 prt_castle 28 121 0 prt_castle 102 140 0 prt_castle 31 113 0 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 0 prt_castle 102 16 1 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 1 prt_castle 121 29 1 prt_castle 164 145 0 prt_castle 102 88 0
+moc_fild09 374 195 moc_fild09 267 371 1 moc_fild09 80 369 1
+prt_fild05 105 381 prt_fild05 14 141 1 prt_fild05 13 63 1 prt_fild05 255 14 1 prt_fild05 292 385 1 prt_fild05 15 333 1 prt_fild05 134 14 1 prt_fild05 373 205 1
+prt_fild05 14 141 prt_fild05 255 14 1 prt_fild05 292 385 1 prt_fild05 15 333 1 prt_fild05 134 14 1 prt_fild05 373 205 1
+prt_fild07 383 239 prt_fild07 248 376 1 prt_fild07 206 12 1 prt_fild07 17 145 1 prt_fild07 14 289 1 prt_fild07 132 381 1 prt_fild07 385 186 1
+moc_fild17 218 369 moc_fild17 30 300 1 moc_fild17 369 272 1
+prt_church 100 56 prt_church 168 19 0
+prt_fild07 14 289 prt_fild07 132 381 1
+moc_ruins 157 37 moc_ruins 161 40 1 moc_ruins 54 161 1
+prt_fild00 165 18 prt_fild00 159 383 1
+prontera 132 222 prontera 177 221 1
+prt_fild02 380 347 prt_fild02 305 17 1 prt_fild02 17 305 1 prt_fild02 17 242 1 prt_fild02 173 382 1 prt_fild02 17 350 1
+prt_fild04 384 334 prt_fild04 17 114 0 prt_fild04 323 387 1
+moc_fild17 30 300 moc_fild17 369 272 1
+prt_fild04 323 387 prt_fild04 17 114 0
+prontera 204 192 prontera 156 360 1 prontera 22 203 1 prontera 45 346 1 prontera 133 183 1 prontera 132 222 1 prontera 177 221 1
+prt_in 70 143 prt_in 80 113 0 prt_in 70 162 0 prt_in 168 124 0 prt_in 240 141 0 prt_in 37 65 0 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 1 prt_in 69 65 0 prt_in 60 77 0
+prt_castle 54 113 prt_castle 176 121 0 prt_castle 82 29 0 prt_castle 68 153 0 prt_castle 28 121 0 prt_castle 102 140 0 prt_castle 31 113 0 prt_castle 45 145 0 prt_castle 102 129 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 172 113 0 prt_castle 102 16 0 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 1 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 88 0
+prt_in 168 124 prt_in 240 141 0 prt_in 37 65 0 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+gef_tower 158 174 gef_tower 158 150 1
+moc_fild05 378 208 moc_fild05 325 382 1 moc_fild05 384 126 1 moc_fild05 18 136 1
+moc_fild19 71 170 moc_fild19 98 99 1 moc_fild19 169 107 1
+mjolnir_03 21 258 mjolnir_03 242 204 1 mjolnir_03 212 17 1
+prt_fild01 382 351 prt_fild01 66 373 1
+mjolnir_08 30 234 mjolnir_08 369 257 1
+prt_castle 135 153 prt_castle 144 29 0 prt_castle 102 181 1 prt_castle 113 107 0 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 0 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 102 16 0 prt_castle 172 113 0 prt_castle 102 88 0
+gef_tower 156 93 gef_tower 52 181 0 gef_tower 158 174 0 gef_tower 158 150 0
+morocc 85 55 morocc 160 297 1 morocc 284 170 1 morocc 302 207 1 morocc 26 297 1 morocc 24 164 1 morocc 46 46 1
+prt_sewb3 180 173 prt_sewb3 20 185 1
+moc_fild04 19 206 moc_fild04 175 18 1 moc_fild04 258 253 1 moc_fild04 336 381 1 moc_fild04 92 381 1 moc_fild04 14 122 1 moc_fild04 314 381 1
+mjolnir_04 387 174 mjolnir_04 160 46 0 mjolnir_04 122 208 0
+izlude_in 171 97 izlude_in 148 127 0 izlude_in 172 139 0 izlude_in 116 46 0 izlude_in 172 116 0
+mjolnir_08 29 346 mjolnir_08 369 257 1 mjolnir_08 30 234 1
+in_orcs01 30 154 in_orcs01 108 86 0
+prt_in 68 130 prt_in 69 65 0 prt_in 60 77 0
+moc_pryd01 195 9 moc_pryd01 10 195 1
+pay_fild02 16 175 pay_fild02 134 16 1 pay_fild02 167 390 1 pay_fild02 83 386 1 pay_fild02 284 108 1
+prt_in 37 65 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+moc_fild05 325 382 moc_fild05 384 126 1 moc_fild05 18 136 1
+prt_castle 102 129 prt_castle 144 29 0 prt_castle 102 181 0 prt_castle 113 107 1 prt_castle 59 29 0 prt_castle 40 138 0 prt_castle 92 107 1 prt_castle 75 107 0 prt_castle 102 73 0 prt_castle 121 29 0 prt_castle 164 145 0 prt_castle 130 107 0 prt_castle 170 138 0 prt_castle 135 153 0 prt_castle 102 16 0 prt_castle 172 113 0 prt_castle 102 88 1
+gef_fild02 380 68 gef_fild02 380 289 1 gef_fild02 14 78 1
+prt_fild05 270 212 prt_fild05 255 14 1 prt_fild05 15 333 1 prt_fild05 373 205 1 prt_fild05 105 381 1 prt_fild05 13 63 1 prt_fild05 14 141 1 prt_fild05 292 385 1 prt_fild05 134 14 1
+prt_fild04 378 72 prt_fild04 384 334 0 prt_fild04 17 114 1 prt_fild04 323 387 0
+prt_in 48 65 prt_in 70 143 0 prt_in 80 113 0 prt_in 70 162 0 prt_in 168 124 0 prt_in 240 141 0 prt_in 37 65 0 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 1 prt_in 60 77 1
+prt_fild05 255 14 prt_fild05 292 385 1 prt_fild05 15 333 1 prt_fild05 134 14 1 prt_fild05 373 205 1
+pay_fild08 160 16 pay_fild08 262 91 1
+gef_fild10 104 21 gef_fild10 251 371 1 gef_fild10 370 56 1 gef_fild10 223 205 1
+iz_dun01 118 170 iz_dun01 41 32 1
+gef_fild03 66 382 gef_fild03 18 52 1 gef_fild03 312 16 1 gef_fild03 382 277 1 gef_fild03 382 77 1
+mjolnir_09 194 367 mjolnir_09 106 28 1
+prt_sewb2 180 24 prt_sewb2 100 176 0 prt_sewb2 19 175 0 prt_sewb2 140 24 1 prt_sewb2 19 12 0 prt_sewb2 60 24 0
+pay_fild10 16 290 pay_fild10 112 382 1
+gef_fild10 370 56 gef_fild10 223 205 1
+iz_dun01 253 258 iz_dun01 118 170 1 iz_dun01 41 32 1
+pay_fild02 134 16 pay_fild02 167 390 1 pay_fild02 83 386 1 pay_fild02 284 108 1
+payon 90 25 payon 189 69 1 payon 175 189 1
+prt_in 70 162 prt_in 168 124 0 prt_in 240 141 0 prt_in 37 65 0 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+moc_fild13 146 368 moc_fild13 298 370 1
+geffen_in 28 156 geffen_in 70 158 0 geffen_in 70 132 0 geffen_in 28 106 0 geffen_in 163 94 0 geffen_in 70 149 0
+prt_fild11 361 184 prt_fild11 17 281 1 prt_fild11 302 301 1 prt_fild11 362 111 1
+pay_fild03 313 16 pay_fild03 15 110 1 pay_fild03 392 63 1 pay_fild03 172 281 1
+mjolnir_02 361 18 mjolnir_02 79 365 1 mjolnir_02 326 289 1
+prt_fild10 20 196 prt_fild10 339 126 1 prt_fild10 263 20 1
+pay_fild01 353 14 pay_fild01 379 201 1 pay_fild01 278 14 1 pay_fild01 333 361 1
+prt_fild00 383 249 prt_fild00 165 18 1 prt_fild00 159 383 1
+moc_fild15 38 105 moc_fild15 367 276 1 moc_fild15 104 16 1
+morocc 24 164 morocc 46 46 1
+gef_fild00 267 382 gef_fild00 381 137 1 gef_fild00 40 199 1
+prt_in 135 71 prt_in 48 65 0 prt_in 70 143 0 prt_in 80 113 0 prt_in 70 162 0 prt_in 168 124 0 prt_in 240 141 0 prt_in 37 65 0 prt_in 256 131 0 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+gef_fild10 251 371 gef_fild10 370 56 1 gef_fild10 223 205 1
+pay_fild03 392 63 pay_fild03 172 281 1
+mjolnir_09 373 288 mjolnir_09 30 249 1 mjolnir_09 194 367 1 mjolnir_09 106 28 1
+moc_fild03 179 16 moc_fild03 303 170 1
+geffen 26 119 geffen 120 114 1
+geffen 43 85 geffen 26 119 1 geffen 120 114 1
+geffen_in 163 94 geffen_in 70 149 0
+moc_fild01 239 382 moc_fild01 321 16 1 moc_fild01 56 384 1 moc_fild01 379 162 1 moc_fild01 22 242 1 moc_fild01 68 16 1
+prt_fild08 170 378 prt_fild08 233 16 1 prt_fild08 16 187 1 prt_fild08 16 239 1 prt_fild08 371 212 1
+iz_dun03 264 245 iz_dun03 29 63 1
+moc_fild07 198 21 moc_fild07 381 201 1
+prt_in 256 131 prt_in 82 65 0 prt_in 53 105 0 prt_in 254 113 0 prt_in 68 130 0 prt_in 69 65 0 prt_in 60 77 0
+prt_sewb2 100 176 prt_sewb2 19 175 0 prt_sewb2 140 24 0 prt_sewb2 19 12 0 prt_sewb2 60 24 1
+prt_castle 164 145 prt_castle 102 88 0
+payon 189 69 payon 175 189 1

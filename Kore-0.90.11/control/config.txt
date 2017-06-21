@@ -1,0 +1,241 @@
+#See the documentation for what these variables do
+
+local_port 2351
+local_host localhost
+
+# パッチ鯖
+patch_host 61.215.212.2
+patch_dir /patch15/
+
+master_name_0 iRO: Master I
+master_host_0 66.179.34.39
+master_port_0 6900
+master_version_0 1
+master_name_1 cRO: Alfheim (chaos, loki, sakray, idun)
+master_host_1 61.220.60.11
+master_port_1 6900
+master_version_1 5
+master_name_2 cRO: Yotunheim (iris, penril, sara, odin, thor)
+master_host_2 61.220.56.147
+master_port_2 6900
+master_version_2 5
+master_name_3 cRO: Midgard I (balder, freyia, heimdall)
+master_host_3 61.220.62.30
+master_port_3 6900
+master_version_3 5
+master_name_4 cRO: Midgard II (honir)
+master_host_4 61.220.62.28
+master_port_4 6900
+master_version_4 5
+master_name_5 cRO: Test (PVP Test Server)
+master_host_5 61.220.62.26
+master_port_5 6900
+master_version_5 5
+master_name_6 cRO: Mainland
+master_host_6 61.172.240.11
+master_port_6 6900
+master_version_6 5
+master_name_7 tRO: Master I
+master_host_7 203.144.244.10
+master_port_7 6900
+master_version_7 7
+master_name_8 kRO: Master I
+master_host_8 211.239.161.246
+master_port_8 6900
+master_version_8 0
+master_name_9 jRO: Master I
+master_host_9 61.215.212.5
+master_port_9 6900
+master_version_9 3
+
+version 6
+encrypt 0
+
+
+
+
+# ユーザー情報
+master 9
+server 
+username 
+password 
+char 
+sex 
+
+# 遠隔操作
+adminPassword asadsdadada
+callSign kore
+
+# 死亡時、二重ログイン時に切断する
+dcOnDeath 0
+dcOnDualLogin 0
+# 指定した時間ごとにリログする
+autoRestart 0
+
+verbose 1
+debug 0
+message_length_max 80
+
+# 攻撃関連
+attackAuto 2
+attackAuto_party 1
+attackAuto_followTarget 1
+attackDistance 3
+attackMaxRouteDistance 100
+attackMaxRouteTime 4
+attackUseWeapon 1
+
+# マップのロック
+lockMap 
+lockMap_x 
+lockMap_y 
+
+# セーブ地点のマップと戻る時に蝶パケを使うかどうか
+saveMap 
+saveMap_warpToBuyOrSell 0
+
+# ランダムウォーキング設定
+route_randomWalk 1
+route_randomWalk_maxRouteTime 15
+route_step 15
+
+# 攻撃時スキル
+attackSkillSlot_0 
+attackSkillSlot_0_dist 3
+attackSkillSlot_0_hp_lower 0
+attackSkillSlot_0_hp_upper 100
+attackSkillSlot_0_lvl 1
+attackSkillSlot_0_maxAggressives 0
+attackSkillSlot_0_minAggressives 0
+attackSkillSlot_0_maxCastTime 10
+attackSkillSlot_0_maxUses 0
+attackSkillSlot_0_monsters 
+attackSkillSlot_0_sp_lower 0
+attackSkillSlot_0_sp_upper 100
+attackSkillSlot_0_stopWhenHit 0
+
+# 座り指定
+sitAuto_hp_lower 70
+sitAuto_hp_upper 100
+sitAuto_sp_lower 0
+sitAuto_sp_upper 0
+
+sitAuto_idle 1
+
+# テレポート指定
+teleportAuto_hp 10
+teleportAuto_idle 0
+teleportAuto_portal 0
+teleportAuto_onlyWhenSafe 1
+
+# 自分自身にスキルを使う
+useSelf_skill_0 
+useSelf_skill_0_hp_lower 0
+useSelf_skill_0_hp_upper 100
+useSelf_skill_0_lvl 1
+useSelf_skill_0_maxAggressives 0
+useSelf_skill_0_minAggressives 0
+useSelf_skill_0_maxCastTime 10
+useSelf_skill_0_sp_lower 0
+useSelf_skill_0_sp_upper 100
+useSelf_skill_0_stopWhenHit 0
+useSelf_skill_0_timeout 0
+
+# スマートヒール機能を使う
+useSelf_skill_smartHeal 1
+
+# 自分自身にアイテムを使う
+useSelf_item_0 
+useSelf_item_0_hp_lower 0
+useSelf_item_0_hp_upper 60
+useSelf_item_0_maxAggressives 0
+useSelf_item_0_minAggressives 0
+useSelf_item_0_sp_lower 0
+useSelf_item_0_sp_upper 100
+useSelf_item_0_stopWhenHit 0
+
+# アイテム拾い設定
+itemsTakeAuto 1
+itemsGatherAuto 0
+itemsMaxWeight 47
+
+# アイテム自動購入
+buyAuto_0 
+buyAuto_0_npc 
+buyAuto_0_minAmount 0
+buyAuto_0_maxAmount 50
+
+# アイテム自動売却
+sellAuto 0
+sellAuto_npc 
+
+# follow設定
+follow 0
+followTarget 
+followDistanceMax 6
+followDistanceMin 3
+followLostStep 12
+
+# tankモード
+tankMode 0
+tankModeTarget 
+
+# PT要請/取引要請を拒否する
+dealAutoCancel 1
+partyAutoDeny 1
+
+# パーティメンバーに対してワープポータルを開く
+partyWarper 0
+partyWarperPassword cleecrez
+partyWarperAuthorization 1
+partyWarper_portalX 0
+partyWarper_portalY 0
+partyWarper_slot_0 
+partyWarper_slot_1 
+partyWarper_slot_2 
+partyWarper_slot_current 0
+
+seconds_per_block 0.12
+sleepTime 50000
+
+# 追加設定 ###########################################################
+
+# 再接続ウェイト(number, 0～60)
+wait_ReConnect 10
+
+# ターゲット被り検知
+waitDetection 3
+useDetection 1
+useSorryEmotion 16
+useAngry 0
+useAngryEmotion 6
+
+# 自動返答
+distResponse 5
+
+# 重要アイテム取得
+itemsImportantAuto 1
+timeCutImportant 10
+distImportantItem 5
+
+# 情報記録
+recordEmotion 0
+recordPlayerInfo 0
+
+# ワープポータル回避
+avoidPortal 1
+
+# マップチェンジ毎に公平モードにする
+shareOnMapChanged 0
+
+# アイテム連続使用回数
+useSelf_item_continue 3
+
+# 簡易Thanks
+useThanks 1
+useThanksWord あり～
+useThanksEmotion 2
+
+# スタート時にHPR/SPRスキルを覚える
+hprOnStart 0
+sprOnStart 0
